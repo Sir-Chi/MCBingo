@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:mineshaft",
+    "config": {
+      "type": "normal",
+      "probability": 0
+    }
+  }
