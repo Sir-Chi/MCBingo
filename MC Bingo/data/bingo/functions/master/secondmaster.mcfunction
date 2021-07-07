@@ -16,6 +16,7 @@ function bingo:scores/greengetsitem
 function bingo:scores/yellowgetsitem
 
 function bingo:points/winconditions
+function bingo:points/winconditionsnoautoend
 
 function bingo:respawn/respawn
 function bingo:respawn/spawnlocationunknown

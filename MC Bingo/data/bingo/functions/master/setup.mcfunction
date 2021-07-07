@@ -32,8 +32,11 @@ scoreboard players set RedTeam TeamCount 0
 scoreboard players set GreenTeam TeamCount 0
 scoreboard players set YellowTeam TeamCount 0
 
-scoreboard objectives add EndGame dummy
-scoreboard players set TeamWhoWin EndGames 0
+scoreboard objectives add FirstBingo dummy
+scoreboard players set RedFirstBingo FirstBingo 0
+scoreboard players set BlueFirstBingo FirstBingo 0
+scoreboard players set YellowFirstBingo FirstBingo 0
+scoreboard players set GreenFirstBingo FirstBingo 0
 
 scoreboard objectives add Deaths deathCount
 scoreboard objectives add Health health
@@ -49,9 +52,9 @@ team modify red color red
 team modify yellow color yellow
 team modify green color green
 
-scoreboard objectives setdisplay sidebar GameSetup
+scoreboard objectives setdisplay sidebar Score
 
-scoreboard players set BaseBingo GameSetup 1
+scoreboard players set BaseBingo GameSetup 0
 scoreboard players set 25Mins GameSetup 0
 scoreboard players set Blackout GameSetup 0
 scoreboard players set Lockout GameSetup 0
@@ -60,6 +63,8 @@ scoreboard players set Elytra GameSetup 0
 scoreboard players set NightVision GameSetup 0
 scoreboard players set Speed GameSetup 0
 scoreboard players set AllRecipes GameSetup 0
+scoreboard players set Teams GameSetup 0
+scoreboard players set AutoEnd GameSetup 0
 
 ##Scoreboards and values for the Seed things
 
@@ -100,8 +105,10 @@ scoreboard players set seed is -2147483648
 gamerule doDaylightCycle false
 gamerule disableElytraMovementCheck true
 gamerule announceAdvancements false
+gamerule doInsomnia false
 gamerule spawnRadius 1
 difficulty peaceful
+gamemode creative @a
 gamerule commandBlockOutput false
 
 ##Makes sure a new Card can be generated
