@@ -80,7 +80,7 @@ execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:jungle_sign"}]}] if
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:acacia_sign"}]}] if score sign ActiveItems matches 1 unless score sign RedItems matches 1 run function bingo:detectionred/redcategory34
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:dark_oak_sign"}]}] if score sign ActiveItems matches 1 unless score sign RedItems matches 1 run function bingo:detectionred/redcategory34
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:armor_stand"}]}] if score armorstand ActiveItems matches 1 unless score armorstand RedItems matches 1 run function bingo:detectionred/redcategory34
-execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:carrot_on_a_stick"}]}] if score carrotonastick ActiveItems matches 1 unless score carrotonastick RedItems matches 1 run function bingo:detectionred/redcategory34
+execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:bamboo"}]}] if score bamboo ActiveItems matches 1 unless score bamboo RedItems matches 1 run function bingo:detectionred/redcategory34
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:cooked_cod"}]}] if score cookedcod ActiveItems matches 1 unless score cookedcod RedItems matches 1 run function bingo:detectionred/redcategory35
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:campfire"}]}] if score campfire ActiveItems matches 1 unless score campfire RedItems matches 1 run function bingo:detectionred/redcategory35
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:crossbow"}]}] if score crossbow ActiveItems matches 1 unless score crossbow RedItems matches 1 run function bingo:detectionred/redcategory35
