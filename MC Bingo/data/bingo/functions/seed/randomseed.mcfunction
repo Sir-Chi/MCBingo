@@ -17,10 +17,11 @@ scoreboard objectives add GreenItems dummy "Green Items"
 scoreboard objectives add YellowItems dummy "Yellow Items"
 
 ##Resets players Score (for the Win Condtions) scoreboard
-scoreboard players set BlueTeam Score 0
-scoreboard players set RedTeam Score 0
-scoreboard players set GreenTeam Score 0
-scoreboard players set YellowTeam Score 0
+scoreboard players reset BlueTeam Score
+scoreboard players reset RedTeam Score
+scoreboard players reset GreenTeam Score
+scoreboard players reset YellowTeam Score
+scoreboard players reset @a Score
 team join blue BlueTeam
 team join red RedTeam
 team join green GreenTeam
@@ -28,6 +29,10 @@ team join yellow YellowTeam
 scoreboard players set #Leader Score 0
 scoreboard players reset @a CraftMap
 scoreboard players reset @a CraftRockets
+scoreboard players set RedFirstBingo FirstBingo 0
+scoreboard players set BlueFirstBingo FirstBingo 0
+scoreboard players set YellowFirstBingo FirstBingo 0
+scoreboard players set GreenFirstBingo FirstBingo 0
 
 ##Announces that a new Card is generating to all players
 title @a title {"text":"Generating New Bingo Card","color":"gold"}
