@@ -10,9 +10,9 @@ execute if score AllRecipes GameSetup matches 1 run recipe give @a *
 execute if score AllRecipes GameSetup matches 0 run recipe take @a *
 execute if score NightVision GameSetup matches 1 run effect give @a[team=!] night_vision 99999 0 true
 execute if score Speed GameSetup matches 1 run effect give @a[team=!] speed 99999 1 true
-execute if score DepthStrider GameSetup matches 1 run replaceitem entity @a[team=!] armor.feet leather_boots{Unbreakable:1b,display:{Name:'{"text":"Flippers","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:depth_strider",lvl:3s},{id:"minecraft:vanishing_curse",lvl:1s}]} 1
-execute if score Elytra GameSetup matches 1 run replaceitem entity @a[team=!] armor.chest elytra{Unbreakable:1b,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 1
-execute if score Elytra GameSetup matches 1 run replaceitem entity @a[team=!] inventory.7 firework_rocket{display:{Name:'{"text":"Special Go Fast Rockets","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 64
+execute if score DepthStrider GameSetup matches 1 run item replace entity @a[team=!] armor.feet with leather_boots{Unbreakable:1b,display:{Name:'{"text":"Flippers","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:depth_strider",lvl:3s},{id:"minecraft:vanishing_curse",lvl:1s}]} 1
+execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] armor.chest with elytra{Unbreakable:1b,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 1
+execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] inventory.7 with firework_rocket{display:{Name:'{"text":"Special Go Fast Rockets","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 64
 
 #Set the world border
 worldborder set 10000000

@@ -9,9 +9,9 @@ execute at @e[type=area_effect_cloud,tag=carditem,tag=egg] run clone 21 90 87 36
 execute at @e[type=area_effect_cloud,tag=carditem,tag=cake] run clone 38 90 87 53 91 72 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=painting] run clone 55 90 87 70 91 72 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=itemframe] run clone 72 90 87 87 91 72 ~ ~-1 ~ replace
-####execute at @e[type=area_effect_cloud,tag=carditem,tag=glowitemframe] run clone 89 90 87 104 91 72 ~ ~-1 ~ replace
+execute at @e[type=area_effect_cloud,tag=carditem,tag=glowitemframe] run clone 89 90 87 104 91 72 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=goldsword] run clone -81 90 70 -66 91 55 ~ ~-1 ~ replace
- execute at @e[type=area_effect_cloud,tag=carditem,tag=clock] run clone -64 90 70 -49 91 55 ~ ~-1 ~ replace
+execute at @e[type=area_effect_cloud,tag=carditem,tag=clock] run clone -64 90 70 -49 91 55 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=poweredrail] run clone -47 90 70 -32 91 55 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=hopper] run clone -30 90 70 -15 91 55 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=hopperminecart] run clone -13 90 70 2 91 55 ~ ~-1 ~ replace
@@ -82,11 +82,11 @@ execute at @e[type=area_effect_cloud,tag=carditem,tag=crossbow] run clone -47 90
 execute at @e[type=area_effect_cloud,tag=carditem,tag=bucketofsalmon] run clone -30 90 -32 -15 91 -47 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=bucketoftropicalfish] run clone -13 90 -32 2 91 -47 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=bucketofpufferfish] run clone 4 90 -32 19 91 -47 ~ ~-1 ~ replace
-#execute at @e[type=area_effect_cloud,tag=carditem,tag=rabbithide] run clone 21 90 -32 36 91 -47 ~ ~-1 ~ replace
-#execute at @e[type=area_effect_cloud,tag=carditem,tag=bundle] run clone 38 90 -32 53 91 -47 ~ ~-1 ~ replace
-#execute at @e[type=area_effect_cloud,tag=carditem,tag=amethystshard] run clone 55 90 -32 70 91 -47 ~ ~-1 ~ replace
-#execute at @e[type=area_effect_cloud,tag=carditem,tag=spyglass] run clone 72 90 -32 87 91 -47 ~ ~-1 ~ replace
-#execute at @e[type=area_effect_cloud,tag=carditem,tag=spyglass] run clone 89 90 -32 104 91 -47 ~ ~-1 ~ replace
+#execute at @e[type=area_effect_cloud,tag=carditem,tag=amethystshard] run clone 21 90 -32 36 91 -47 ~ ~-1 ~ replace
+#execute at @e[type=area_effect_cloud,tag=carditem,tag=spyglass] run clone 38 90 -32 53 91 -47 ~ ~-1 ~ replace
+#execute at @e[type=area_effect_cloud,tag=carditem,tag=rabbithide] run clone 55 90 -32 70 91 -47 ~ ~-1 ~ replace
+#execute at @e[type=area_effect_cloud,tag=carditem,tag=bundle] run clone 72 90 -32 87 91 -47 ~ ~-1 ~ replace
+#execute at @e[type=area_effect_cloud,tag=carditem,tag=] run clone 89 90 -32 104 91 -47 ~ ~-1 ~ replace
 #execute at @e[type=area_effect_cloud,tag=carditem,tag=] run clone -81 90 -49 -66 91 -64 ~ ~-1 ~ replace
 #execute at @e[type=area_effect_cloud,tag=carditem,tag=] run clone -64 90 -49 -49 91 -64 ~ ~-1 ~ replace
 #execute at @e[type=area_effect_cloud,tag=carditem,tag=] run clone -47 90 -49 -32 91 -64 ~ ~-1 ~ replace

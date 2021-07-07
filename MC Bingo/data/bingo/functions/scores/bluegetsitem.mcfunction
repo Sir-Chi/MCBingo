@@ -10,6 +10,7 @@ execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:egg"}]}] if score 
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:cake"}]}] if score cake ActiveItems matches 1 unless score cake BlueItems matches 1 run function bingo:detectionblue/bluecategory3
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:painting"}]}] if score painting ActiveItems matches 1 unless score painting BlueItems matches 1 run function bingo:detectionblue/bluecategory4
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:item_frame"}]}] if score itemframe ActiveItems matches 1 unless score itemframe BlueItems matches 1 run function bingo:detectionblue/bluecategory4
+execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:glow_item_frame"}]}] if score glowitemframe ActiveItems matches 1 unless score glowitemframe BlueItems matches 1 run function bingo:detectionblue/bluecategory4
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:golden_sword"}]}] if score goldsword ActiveItems matches 1 unless score goldsword BlueItems matches 1 run function bingo:detectionblue/bluecategory5
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:clock"}]}] if score clock ActiveItems matches 1 unless score clock BlueItems matches 1 run function bingo:detectionblue/bluecategory5
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:powered_rail"}]}] if score poweredrail ActiveItems matches 1 unless score poweredrail BlueItems matches 1 run function bingo:detectionblue/bluecategory5
@@ -87,3 +88,5 @@ execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:crossbow"}]}] if s
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:salmon_bucket"}]}] if score bucketofsalmon ActiveItems matches 1 unless score bucketofsalmon BlueItems matches 1 run function bingo:detectionblue/bluecategory36
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:tropical_fish_bucket"}]}] if score bucketoftropicalfish ActiveItems matches 1 unless score bucketoftropicalfish BlueItems matches 1 run function bingo:detectionblue/bluecategory36
 execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:pufferfish_bucket"}]}] if score bucketofpufferfish ActiveItems matches 1 unless score bucketofpufferfish BlueItems matches 1 run function bingo:detectionblue/bluecategory36
+#execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:amethyst_shard"}]}] if score amethystshard ActiveItems matches 1 unless score amethystshard BlueItems matches 1 run function bingo:detectionblue/bluecategory37
+#execute if entity @a[team=blue,nbt={Inventory:[{id:"minecraft:spyglass"}]}] if score spyglass ActiveItems matches 1 unless score spyglass BlueItems matches 1 run function bingo:detectionblue/bluecategory37
