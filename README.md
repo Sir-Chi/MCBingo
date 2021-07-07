@@ -75,7 +75,7 @@ Bingo allows you to customise the gameplay with various pre-set configs:
 Minecraft BINGO was the creation of Dr. Brian Lorgon111. He made the original versions. His twitter can be found [here](https://twitter.com/lorgon111). 
 His original version of Bingo can be found on it's website [here](http://www.playminecraftbingo.com).  
 
-This new 1.16 version has been made from scratch by myself, with permission from Brian.
+These new versions found here (for minecraft 1.16-1.17+) have been made from scratch by myself, with permission from Brian.
 
 This was kindly play tested by the Forgotten Turtles!
 
