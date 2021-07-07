@@ -75,7 +75,7 @@ execute at @e[type=area_effect_cloud,tag=carditem,tag=cookedrabbit] run clone 21
 execute at @e[type=area_effect_cloud,tag=carditem,tag=rabbitstew] run clone 38 90 -15 53 91 -30 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=sign] run clone 55 90 -15 70 91 -30 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=armorstand] run clone 72 90 -15 87 91 -30 ~ ~-1 ~ replace
-execute at @e[type=area_effect_cloud,tag=carditem,tag=carrotonastick] run clone 89 90 -15 104 91 -30 ~ ~-1 ~ replace
+execute at @e[type=area_effect_cloud,tag=carditem,tag=bamboo] run clone 89 90 -15 104 91 -30 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=cookedcod] run clone -81 90 -32 -66 91 -47 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=campfire] run clone -64 90 -32 -49 91 -47 ~ ~-1 ~ replace
 execute at @e[type=area_effect_cloud,tag=carditem,tag=crossbow] run clone -47 90 -32 -32 91 -47 ~ ~-1 ~ replace

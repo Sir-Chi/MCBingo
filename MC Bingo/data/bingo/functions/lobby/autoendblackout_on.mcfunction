@@ -1,0 +1,6 @@
+scoreboard players set AutoEnd GameSetup 1
+scoreboard players set BaseBingo GameSetup 0
+scoreboard players set 25Mins GameSetup 0
+scoreboard players set Blackout GameSetup 1
+
+data merge block -18 108 -4 {Text1:"[\"\"]",Text2:"{\"text\":\"Blackout\",\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function bingo:lobby/autoend25mins_off\"}}",Text3:"{\"text\":\"ON\",\"bold\":true,\"color\":\"dark_green\"}"}

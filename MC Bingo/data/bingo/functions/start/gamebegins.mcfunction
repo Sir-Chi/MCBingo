@@ -13,7 +13,7 @@ difficulty normal
 effect clear @a
 xp set @a 0 levels
 clear @a
-time set day
+time set 0
 gamemode survival @a[team=!]
 gamemode spectator @a[team=]
 

@@ -197,7 +197,7 @@ execute as @e[tag=tpasblue] at @e[tag=tpasblue] unless block ~ ~ ~ air run execu
 execute as @e[tag=tpasblue] at @e[tag=tpasblue] unless block ~ ~ ~ air run execute at @e[tag=tpasblue] run fill ~ ~-2 ~ ~ ~-1 ~ dirt
 execute as @e[tag=tpasblue] at @e[tag=tpasblue] unless block ~ ~ ~ air run execute at @e[tag=tpasblue] run tp @e[tag=tpasblue] ~ ~2 ~
 
-execute at @e[tag=tpasblue] run fill ~ ~-1 ~ ~ ~-1 ~ dirt
+execute at @e[tag=tpasblue] run fill ~ ~-2 ~ ~ ~-1 ~ dirt
 execute at @e[tag=tpasblue] run tp @e[tag=tpasblue] ~ ~1 ~
 
 schedule function bingo:start/finaliseredspawn 10t

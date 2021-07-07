@@ -6,6 +6,7 @@ scoreboard players reset BlueTeam Score
 scoreboard players reset RedTeam Score
 scoreboard players reset GreenTeam Score
 scoreboard players reset YellowTeam Score
+scoreboard players reset @a Score
 scoreboard players set #Leader Score 0
 scoreboard players reset @a CraftRocket
 scoreboard players reset @a CraftMap
@@ -13,14 +14,17 @@ scoreboard players set GameEnded GameState 1
 scoreboard players set PreGame GameState 1
 scoreboard players set @a Deaths 0
 scoreboard players reset LockOutGoal
-scoreboard players set TeamWhoWin EndGames 0
+scoreboard players set RedFirstBingo FirstBingo 0
+scoreboard players set BlueFirstBingo FirstBingo 0
+scoreboard players set YellowFirstBingo FirstBingo 0
+scoreboard players set GreenFirstBingo FirstBingo 0
 
 effect clear @a
 xp set @a 0 levels
 clear @a
 difficulty peaceful
 gamerule doDaylightCycle false
-time set day
+time set 0
 
 kill @e[tag=tpasblue]
 kill @e[tag=tpasred]
@@ -38,7 +42,7 @@ tp @a -1 107 -9
 spawnpoint @a -1 107 -9
 setworldspawn -1 107 -9
 
-scoreboard players set BaseBingo GameSetup 1
+#scoreboard players set BaseBingo GameSetup 0
 #scoreboard players set 25Mins GameSetup 0
 #scoreboard players set Blackout GameSetup 0
 #scoreboard players set Lockout GameSetup 0
@@ -48,7 +52,7 @@ scoreboard players set BaseBingo GameSetup 1
 #scoreboard players set Speed GameSetup 0
 #scoreboard players set AllRecipes GameSetup 0
 
-recipe take @a *
+recipe give @a *
 
 #team empty blue
 #team empty green

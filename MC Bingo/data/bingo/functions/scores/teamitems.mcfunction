@@ -375,10 +375,10 @@ execute if score armorstand ActiveItems matches 1 run scoreboard players set arm
 execute if score armorstand ActiveItems matches 1 run scoreboard players set armorstand GreenItems 0
 execute if score armorstand ActiveItems matches 1 run scoreboard players set armorstand YellowItems 0
 
-execute if score carrotonastick ActiveItems matches 1 run scoreboard players set carrotonastick BlueItems 0
-execute if score carrotonastick ActiveItems matches 1 run scoreboard players set carrotonastick RedItems 0
-execute if score carrotonastick ActiveItems matches 1 run scoreboard players set carrotonastick GreenItems 0
-execute if score carrotonastick ActiveItems matches 1 run scoreboard players set carrotonastick YellowItems 0
+execute if score bamboo ActiveItems matches 1 run scoreboard players set bamboo BlueItems 0
+execute if score bamboo ActiveItems matches 1 run scoreboard players set bamboo RedItems 0
+execute if score bamboo ActiveItems matches 1 run scoreboard players set bamboo GreenItems 0
+execute if score bamboo ActiveItems matches 1 run scoreboard players set bamboo YellowItems 0
 
 execute if score cookedcod ActiveItems matches 1 run scoreboard players set cookedcod BlueItems 0
 execute if score cookedcod ActiveItems matches 1 run scoreboard players set cookedcod RedItems 0
