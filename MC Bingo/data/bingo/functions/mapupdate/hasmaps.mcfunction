@@ -6,7 +6,7 @@ scoreboard players remove @a hasMaps 1
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:filled_map",tag:{map:0}}]}] hasMaps 5 
 scoreboard players set @a offhandHasItem 0
 scoreboard players set @a[nbt={Inventory:[{Slot:-106b}]}] offhandHasItem 1
-replaceitem entity @a[scores={hasMaps=0,offhandHasItem=0}] weapon.offhand filled_map{display:{Name:'{"text":"BINGO Card"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],map:0} 32
+item replace entity @a[scores={hasMaps=0,offhandHasItem=0}] weapon.offhand with filled_map{display:{Name:'{"text":"BINGO Card"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],map:0} 32
 
 #Gives players who don't have maps (score hasMaps 0) will gain 32 maps. Dependant on if they have something in thier off hand or not.
 give @a[scores={hasMaps=0,offhandHasItem=1..}] filled_map{display:{Name:'{"text":"BINGO Card"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],map:0} 32
