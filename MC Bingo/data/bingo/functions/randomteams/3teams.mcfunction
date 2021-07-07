@@ -7,4 +7,5 @@ team join yellow @r[team=]
 
 execute if entity @a[team=] run schedule function bingo:randomteams/3teams 2t
 
-execute unless entity @a[team=] run title @a actionbar {"text":"Teams randomised!","color":"aqua"}
+execute unless entity @a[team=] run title @a title ""
+execute unless entity @a[team=] run title @a subtitle {"text":"Teams randomised!","color":"aqua"}
