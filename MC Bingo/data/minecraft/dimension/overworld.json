@@ -44,6 +44,15 @@
               "weirdness": 0,
               "offset": 0
             }
+          },          {
+            "biome": "minecraft:bamboo_jungle",
+            "parameters": {
+              "altitude": 1,
+              "temperature": -0.5,
+              "humidity": 0.2,
+              "weirdness": 0,
+              "offset": 0.3
+            }
           },
           {
             "biome": "minecraft:badlands",
