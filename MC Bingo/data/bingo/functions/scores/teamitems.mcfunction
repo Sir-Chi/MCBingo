@@ -50,6 +50,11 @@ execute if score itemframe ActiveItems matches 1 run scoreboard players set item
 execute if score itemframe ActiveItems matches 1 run scoreboard players set itemframe GreenItems 0
 execute if score itemframe ActiveItems matches 1 run scoreboard players set itemframe YellowItems 0
 
+execute if score glowitemframe ActiveItems matches 1 run scoreboard players set glowitemframe BlueItems 0
+execute if score glowitemframe ActiveItems matches 1 run scoreboard players set glowitemframe RedItems 0
+execute if score glowitemframe ActiveItems matches 1 run scoreboard players set glowitemframe GreenItems 0
+execute if score glowitemframe ActiveItems matches 1 run scoreboard players set glowitemframe YellowItems 0
+
 execute if score goldsword ActiveItems matches 1 run scoreboard players set goldsword BlueItems 0
 execute if score goldsword ActiveItems matches 1 run scoreboard players set goldsword RedItems 0
 execute if score goldsword ActiveItems matches 1 run scoreboard players set goldsword GreenItems 0
@@ -409,3 +414,13 @@ execute if score bucketofpufferfish ActiveItems matches 1 run scoreboard players
 execute if score bucketofpufferfish ActiveItems matches 1 run scoreboard players set bucketofpufferfish RedItems 0
 execute if score bucketofpufferfish ActiveItems matches 1 run scoreboard players set bucketofpufferfish GreenItems 0
 execute if score bucketofpufferfish ActiveItems matches 1 run scoreboard players set bucketofpufferfish YellowItems 0
+
+#execute if score amethystshard ActiveItems matches 1 run scoreboard players set amethystshard BlueItems 0
+#execute if score amethystshard ActiveItems matches 1 run scoreboard players set amethystshard RedItems 0
+#execute if score amethystshard ActiveItems matches 1 run scoreboard players set amethystshard GreenItems 0
+#execute if score amethystshard ActiveItems matches 1 run scoreboard players set amethystshard YellowItems 0
+
+#execute if score spyglass ActiveItems matches 1 run scoreboard players set spyglass BlueItems 0
+#execute if score spyglass ActiveItems matches 1 run scoreboard players set spyglass RedItems 0
+#execute if score spyglass ActiveItems matches 1 run scoreboard players set spyglass GreenItems 0
+#execute if score spyglass ActiveItems matches 1 run scoreboard players set spyglass YellowItems 0

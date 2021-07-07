@@ -10,6 +10,7 @@ execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:egg"}]}] if score e
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:cake"}]}] if score cake ActiveItems matches 1 unless score cake RedItems matches 1 run function bingo:detectionred/redcategory3
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:painting"}]}] if score painting ActiveItems matches 1 unless score painting RedItems matches 1 run function bingo:detectionred/redcategory4
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:item_frame"}]}] if score itemframe ActiveItems matches 1 unless score itemframe RedItems matches 1 run function bingo:detectionred/redcategory4
+execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:glow_item_frame"}]}] if score glowitemframe ActiveItems matches 1 unless score glowitemframe RedItems matches 1 run function bingo:detectionred/redcategory4
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:golden_sword"}]}] if score goldsword ActiveItems matches 1 unless score goldsword RedItems matches 1 run function bingo:detectionred/redcategory5
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:clock"}]}] if score clock ActiveItems matches 1 unless score clock RedItems matches 1 run function bingo:detectionred/redcategory5
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:powered_rail"}]}] if score poweredrail ActiveItems matches 1 unless score poweredrail RedItems matches 1 run function bingo:detectionred/redcategory5
@@ -87,3 +88,5 @@ execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:crossbow"}]}] if sc
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:salmon_bucket"}]}] if score bucketofsalmon ActiveItems matches 1 unless score bucketofsalmon RedItems matches 1 run function bingo:detectionred/redcategory36
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:tropical_fish_bucket"}]}] if score bucketoftropicalfish ActiveItems matches 1 unless score bucketoftropicalfish RedItems matches 1 run function bingo:detectionred/redcategory36
 execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:pufferfish_bucket"}]}] if score bucketofpufferfish ActiveItems matches 1 unless score bucketofpufferfish RedItems matches 1 run function bingo:detectionred/redcategory36
+#execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:amethyst_shard"}]}] if score amethystshard ActiveItems matches 1 unless score amethystshard RedItems matches 1 run function bingo:detectionred/redcategory37
+#execute if entity @a[team=red,nbt={Inventory:[{id:"minecraft:spyglass"}]}] if score spyglass ActiveItems matches 1 unless score spyglass RedItems matches 1 run function bingo:detectionred/redcategory37
