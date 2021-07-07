@@ -13,4 +13,6 @@ effect give @a resistance 999999 20 true
 ##Anounces to players that the game is starting
 title @a[team=!] title {"text":"Starting Game","color":"gold"}
 
+function bingo:start/teamsetup
+
 schedule function bingo:start/xzblue 2t

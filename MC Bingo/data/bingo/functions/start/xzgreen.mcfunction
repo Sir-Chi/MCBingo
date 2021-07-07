@@ -109,7 +109,7 @@ execute as @e[tag=Z,scores={Z=-2}] at @e[type=area_effect_cloud,tag=findblock] r
 execute as @e[tag=Z,scores={Z=-1}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 execute as @e[tag=Z,scores={Z=0}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 scoreboard players operation @e[tag=Z] Z += x1 S
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -14 109 -9
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -29 109 -9
 
 ##Find Z spawn coordinate/location
 tp @e[tag=findblock] -14 100 -8
@@ -182,7 +182,7 @@ execute as @e[tag=Z,scores={Z=-2}] at @e[type=area_effect_cloud,tag=findblock] r
 execute as @e[tag=Z,scores={Z=-1}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 execute as @e[tag=Z,scores={Z=0}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 scoreboard players operation @e[tag=Z] Z += z1 S
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -15 109 -9
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -30 109 -9
 
 
 kill @e[tag=findblock]

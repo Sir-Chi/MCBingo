@@ -197,7 +197,7 @@ execute as @e[tag=tpasgreen] at @e[tag=tpasgreen] unless block ~ ~ ~ air run exe
 execute as @e[tag=tpasgreen] at @e[tag=tpasgreen] unless block ~ ~ ~ air run execute at @e[tag=tpasgreen] run fill ~ ~-2 ~ ~ ~-1 ~ dirt
 execute as @e[tag=tpasgreen] at @e[tag=tpasgreen] unless block ~ ~ ~ air run execute at @e[tag=tpasgreen] run tp @e[tag=tpasgreen] ~ ~2 ~
 
-execute at @e[tag=tpasgreen] run fill ~ ~-1 ~ ~ ~-1 ~ dirt
+execute at @e[tag=tpasgreen] run fill ~ ~-2 ~ ~ ~-1 ~ dirt
 execute at @e[tag=tpasgreen] run tp @e[tag=tpasgreen] ~ ~1 ~
 
 schedule function bingo:start/finaliseyellowspawn 10t
