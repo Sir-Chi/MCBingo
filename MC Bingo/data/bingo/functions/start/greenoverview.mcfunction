@@ -10,4 +10,6 @@ effect give @a[team=green] minecraft:invisibility 99999 0 true
 execute if score GreenTeam TeamCount matches 1 run tellraw @a ["Giving ",{"selector":"@p[tag=greenGuyToTeleport]"}," a birds-eye view of green spawn as terrain generates..."]
 execute as @e[tag=tpasgreen] at @e[tag=tpasgreen] positioned as @e[tag=tpasgreen] align xyz run tp @e[tag=tpasgreen] ~0.5 ~ ~0.5
 
+execute as @e[tag=tpasgreen] at @e[tag=tpasgreen] positioned as @e[tag=tpasgreen] align xyz run tp @e[tag=tpasgreen] ~0.5 ~ ~0.5
+
 schedule function bingo:start/greenarmourstand 5s
