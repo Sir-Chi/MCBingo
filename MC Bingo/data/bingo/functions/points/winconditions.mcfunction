@@ -88,16 +88,16 @@ execute if score AutoEnd GameSetup matches 1 if score Blackout GameSetup matches
 ###Could also change it to be based on the Score scoreboard, as it's a max of 25 items/25 points. If team score = 25 then they are the winner.
 
 ##25Mins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score BlueTeam Score matches 25 run function bingo:points/bluewins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=blue] Score matches 25 run function bingo:points/bluewins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score RedTeam Score matches 25 run function bingo:points/redwins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=red] Score matches 25 run function bingo:points/redwins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score GreenTeam Score matches 25 run function bingo:points/greenwins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=green] Score matches 25 run function bingo:points/greenwins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score YellowTeam Score matches 25 run function bingo:points/yellowwins
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=yellow] Score matches 25 run function bingo:points/yellowwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score BlueTeam Score matches 25 run function bingo:points/bluewins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=blue] Score matches 25 run function bingo:points/bluewins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score RedTeam Score matches 25 run function bingo:points/redwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=red] Score matches 25 run function bingo:points/redwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score GreenTeam Score matches 25 run function bingo:points/greenwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=green] Score matches 25 run function bingo:points/greenwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score YellowTeam Score matches 25 run function bingo:points/yellowwins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches ..25 if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 if score @p[team=yellow] Score matches 25 run function bingo:points/yellowwins
 
-execute if score AutoEnd GameSetup matches 1 if score minutes timer matches 25.. if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 run function bingo:points/25mins
+execute if score AutoEnd GameSetup matches 1 if score minutes time matches 25.. if score 25Mins GameSetup matches 1 if score GameEnded GameState matches 0 run function bingo:points/25mins
 
 ##execute as @a at @s if score @s Score > #Leader Score run scoreboard players operation #Leader Score = @s Score
 ##execute as @a if score @s Score = #Leader Score 

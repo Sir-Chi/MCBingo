@@ -190,7 +190,7 @@ kill @e[tag=findblock]
 #Tells players that the teams will have an overview of their spawn and that the game will start in a minute
 title @a[team=!] title {"text":"Giving Teams An Overview","color":"gold"}
 
-title @a actionbar {"text":"The Game Will Begin Shortly","bold":true,"color":"gold"}
+tellraw @a {"text":"The Game Will Begin Shortly","bold":true,"color":"gold"}
 
 #Starts to teleport players dependant on which teams are active
 execute if score BlueTeam TeamCount matches 1 run schedule function bingo:start/teleportblue 2s

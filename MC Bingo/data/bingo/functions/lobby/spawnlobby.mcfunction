@@ -83,4 +83,7 @@ title @a title {"text":"Open Your Map","color":"dark_aqua"}
 ##Summons the Game State AOC
 summon area_effect_cloud -1 117 -9 {NoGravity:1b,Duration:999999999,CustomName:'{"text":"GameStateAEC"}'}
 
+##Summons the Timer AOC
+summon area_effect_cloud -1 117 -14 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
+
 function bingo:lobby/firstmapdetect

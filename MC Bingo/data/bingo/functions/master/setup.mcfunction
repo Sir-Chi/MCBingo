@@ -20,9 +20,12 @@ scoreboard players set GamePlayed GameState 0
 scoreboard objectives add CraftRocket minecraft.crafted:minecraft.firework_rocket
 scoreboard objectives add CraftMap minecraft.crafted:minecraft.map
 
-scoreboard objectives add timer dummy
-scoreboard players set seconds timer 0
-scoreboard players set minutes timer 0
+scoreboard objectives add time dummy "Timer"
+scoreboard players set const100000 time 100000
+scoreboard players set const100 time 100
+scoreboard players set systick time 0
+scoreboard players set seconds time 0
+scoreboard players set minutes time 0
 
 scoreboard objectives add Score dummy
 scoreboard objectives add TeamCount dummy
