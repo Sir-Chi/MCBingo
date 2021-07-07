@@ -1,5 +1,6 @@
 {
     "values": [
-        "bingo:master/masterfunc"
+        "bingo:master/masterfunc",
+        "bingo:tick"
     ]
 }
