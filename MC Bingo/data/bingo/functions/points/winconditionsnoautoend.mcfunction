@@ -89,14 +89,14 @@ execute if score AutoEnd GameSetup matches 0 if entity @e[type=area_effect_cloud
 
 ##25Mins
 
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Blue25Mins] if score minutes timer matches 25 if score BlueTeam Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Blue25Mins] if score minutes timer matches 25 if score @p[team=blue] Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Red25Mins] if score minutes timer matches 25 if score RedTeam Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Red25Mins] if score minutes timer matches 25 if score @p[team=red] Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Green25Mins] if score minutes timer matches 25 if score GreenTeam Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Green25Mins] if score minutes timer matches 25 if score @p[team=green] Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Yellow25Mins] if score minutes timer matches 25 if score YellowTeam Score matches 0.. run function bingo:points/noautoend
-execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Yellow25Mins] if score minutes timer matches 25 if score @p[team=yellow] Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Blue25Mins] if score minutes time matches 25 if score BlueTeam Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Blue25Mins] if score minutes time matches 25 if score @p[team=blue] Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Red25Mins] if score minutes time matches 25 if score RedTeam Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Red25Mins] if score minutes time matches 25 if score @p[team=red] Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Green25Mins] if score minutes time matches 25 if score GreenTeam Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Green25Mins] if score minutes time matches 25 if score @p[team=green] Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Yellow25Mins] if score minutes time matches 25 if score YellowTeam Score matches 0.. run function bingo:points/noautoend
+execute if entity @e[type=area_effect_cloud,limit=1,name="GameStateAEC",tag=!Yellow25Mins] if score minutes time matches 25 if score @p[team=yellow] Score matches 0.. run function bingo:points/noautoend
 
 ##Lockout
 

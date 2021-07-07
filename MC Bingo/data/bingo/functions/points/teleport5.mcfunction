@@ -33,10 +33,10 @@ kill @e[tag=tpasyellow]
 
 forceload remove all
 
-schedule clear bingo:timer/seconds
+scoreboard players set @e[type=area_effect_cloud,name="Timer"] time 0
 
-scoreboard players set seconds timer 0
-scoreboard players set minutes timer 0
+scoreboard players set minutes time 0
+scoreboard players set seconds time 0
 
 tp @a -1 107 -9
 spawnpoint @a -1 107 -9
