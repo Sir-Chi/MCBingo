@@ -1,7 +1,7 @@
 #Clears effects, starts the time and starts the time moving
 effect clear @a[team=!]
 
-function bingo:timer/timer
+scoreboard players set @e[type=area_effect_cloud,name="Timer"] time 1
 
 gamerule doDaylightCycle true
 
@@ -13,10 +13,6 @@ execute if score Speed GameSetup matches 1 run effect give @a[team=!] speed 9999
 execute if score DepthStrider GameSetup matches 1 run item replace entity @a[team=!] armor.feet with leather_boots{Unbreakable:1b,display:{Name:'{"text":"Flippers","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:depth_strider",lvl:3s},{id:"minecraft:vanishing_curse",lvl:1s}]} 1
 execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] armor.chest with elytra{Unbreakable:1b,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 1
 execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] inventory.7 with firework_rocket{display:{Name:'{"text":"Special Go Fast Rockets","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 64
-
-#Set the world border
-worldborder set 10000000
-worldborder add 10000000 500000
 
 tellraw @a {"text":"Go!","bold":true,"color":"gold"}
 
