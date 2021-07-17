@@ -1,5 +1,4 @@
 #Randomises players into 2 teams. Will constantly loop until there are no unassigned players left.
-schedule clear bingo:randomteams/teamscheck
 
 team join blue @r[team=]
 team join red @r[team=]
