@@ -15,6 +15,7 @@ execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] a
 execute if score Elytra GameSetup matches 1 run item replace entity @a[team=!] inventory.7 with firework_rocket{display:{Name:'{"text":"Special Go Fast Rockets","color":"#00F7FF"}'},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}]} 64
 
 tellraw @a {"text":"Go!","bold":true,"color":"gold"}
+tellraw @p ["",{"text":"PvP Mode is","color":"red"},{"text":" ACTIVE! ","bold":true,"color":"red"},{"text":"You are close to the other teams","color":"red"}]
 
 #Sets the team collisions back on
 team modify blue collisionRule always

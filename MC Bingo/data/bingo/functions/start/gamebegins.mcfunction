@@ -34,10 +34,14 @@ effect give @a[team=] night_vision 99999 0 true
 
 tellraw @a {"text":"3","bold":true,"color":"gold"}
 
+execute if score PVP GameSetup matches 1 run execute at @e[type=minecraft:armor_stand,tag=pvpmarker] run fill ~-1 128 ~-1 ~1 133 ~1 air
 execute at @p[tag=blueGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
 execute at @p[tag=redGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
 execute at @p[tag=greenGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
 execute at @p[tag=yellowGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
+
+kill @e[type=minecraft:armor_stand,tag=pvpmarker]
+forceload remove all
 
 #Teleports everyone on the teams to their correct armour stand markers
 execute as @e[tag=tpasblue] at @e[tag=tpasblue] run teleport @a[team=blue,name=!"BlueTeam"] @e[tag=tpasblue,limit=1]
@@ -70,7 +74,6 @@ execute at @e[type=minecraft:armor_stand,tag=tpasred] run forceload add ~ ~ ~ ~
 execute at @e[type=minecraft:armor_stand,tag=tpasgreen] run forceload add ~ ~ ~ ~
 execute at @e[type=minecraft:armor_stand,tag=tpasyellow] run forceload add ~ ~ ~ ~
 
-
 tag @a[tag=oneGuyToTeleport] remove oneGuyToTeleport
 tag @a[tag=blueGuyToTeleport] remove blueGuyToTeleport
 tag @a[tag=redGuyToTeleport] remove redGuyToTeleport
@@ -78,4 +81,3 @@ tag @a[tag=greenGuyToTeleport] remove greenGuyToTeleport
 tag @a[tag=yellowGuyToTeleport] remove yellowGuyToTeleport
 
 schedule function bingo:start/countdown1 2s
-

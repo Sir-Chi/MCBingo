@@ -12,7 +12,9 @@ effect give @a resistance 999999 20 true
 
 ##Anounces to players that the game is starting
 title @a[team=!] title {"text":"Starting Game","color":"gold"}
+execute if score PVP GameSetup matches 1 run title @a[team=!] subtitle {"text":"PvP Mode is Active","color":"dark_red"}
 
 function bingo:start/teamsetup
 
-schedule function bingo:start/xzblue 2t
+execute if score PVP GameSetup matches 1 run schedule function bingo:start/xzpvp 2t
+execute if score PVP GameSetup matches 0 run schedule function bingo:start/xzblue 2t
