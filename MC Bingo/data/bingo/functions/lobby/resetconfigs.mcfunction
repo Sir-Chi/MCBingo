@@ -1,3 +1,5 @@
+scoreboard players set @a signs 0
+
 #Resets all the Game Configs to their base values
 scoreboard players set BaseBingo GameSetup 0
 scoreboard players set 25Mins GameSetup 0

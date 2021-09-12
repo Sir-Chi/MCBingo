@@ -86,4 +86,7 @@ summon area_effect_cloud -1 117 -9 {NoGravity:1b,Duration:999999999,CustomName:'
 ##Summons the Timer AOC
 summon area_effect_cloud -1 117 -14 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
+##Starts triggers for the lobby signs
+setblock -1 116 -1 minecraft:redstone_block
+
 function bingo:lobby/firstmapdetect
