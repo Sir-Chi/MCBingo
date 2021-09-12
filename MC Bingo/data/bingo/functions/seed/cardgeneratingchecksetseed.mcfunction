@@ -1,5 +1,7 @@
 #A Condition to prevent spamming of the New Seed Button. Called each time a new Seed is requested - either a Random or a Set Seed.
 
+scoreboard players set @a signs 0
+
 execute if data storage minecraft:general/generatecard {active:1} run title @a title ""
 execute if data storage minecraft:general/generatecard {active:1} run title @a subtitle {"text":"!! Card generation already in progress, please wait a moment !!","color":"dark_red"}
 
