@@ -45,6 +45,8 @@ scoreboard objectives add Deaths deathCount
 scoreboard objectives add Health health
 scoreboard objectives setdisplay list Health
 
+scoreboard objectives add signs trigger
+
 team add blue "Blue Team"
 team add red "Red Team"
 team add yellow "Yellow Team"
@@ -114,6 +116,7 @@ gamerule spawnRadius 1
 difficulty peaceful
 gamemode creative @a
 gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
 
 ##Makes sure a new Card can be generated
 data merge storage minecraft:general/generatecard {active:0}

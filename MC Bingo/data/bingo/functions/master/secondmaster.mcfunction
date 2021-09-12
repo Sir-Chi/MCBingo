@@ -9,6 +9,7 @@ function bingo:mapupdate/hasmaps
 function bingo:lobby/inlobby
 function bingo:lobby/gamesettingsigns
 function bingo:lobby/clearpossibleitems
+function bingo:lobby/signs
 
 function bingo:scores/bluegetsitem
 function bingo:scores/redgetsitem
