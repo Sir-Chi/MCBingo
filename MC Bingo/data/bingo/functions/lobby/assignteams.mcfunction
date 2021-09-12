@@ -1,0 +1,3 @@
+scoreboard players set @a signs 0
+
+tellraw @a ["",{"text":"Randomly assign all players onto: ","color":"dark_purple"},{"text":"2 Teams","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger signs set 30"},"hoverEvent":{"action":"show_text","contents":["Click Here"]}},{"text":" | ","color":"dark_purple"},{"text":"3 Teams","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger signs set 31"},"hoverEvent":{"action":"show_text","contents":["Click Here"]}},{"text":" | ","color":"dark_purple"},{"text":"4 Teams","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger signs set 32"},"hoverEvent":{"action":"show_text","contents":["Click Here"]}}]

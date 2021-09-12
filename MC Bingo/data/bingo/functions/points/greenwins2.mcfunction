@@ -1,8 +1,4 @@
-
-execute at @a run summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Colors:[I;2031360],FadeColors:[I;1261322]}]}}}}
-execute at @a run summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Colors:[I;2031360],FadeColors:[I;1261322]}]}}}}
-execute at @a run summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Colors:[I;2031360],FadeColors:[I;1261322]}]}}}}
-execute at @a run summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Colors:[I;2031360],FadeColors:[I;1261322]}]}}}}
+particle dust 0.035 1.000 0.000 1 ^ ^ ^ 0.000 1.0 0.000 0.2 1280 normal
 
 tellraw @a {"text":"Teleporting back to the Lobby in 10 seconds!","color":"gold"}
 
