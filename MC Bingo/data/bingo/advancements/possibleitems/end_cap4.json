@@ -12,8 +12,8 @@
     },
     "parent": "bingo:possibleitems/catagory30",
       "criteria": {
-        "tick": {
-          "trigger": "minecraft:tick"
+        "impossible": {
+          "trigger": "minecraft:impossible"
     }
   }
 }
