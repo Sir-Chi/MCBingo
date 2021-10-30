@@ -18,3 +18,6 @@ title @a actionbar ["",{"score":{"name":"minutes","objective":"time"}},{"text":"
 
 execute if score minutes time matches 10 if score seconds time matches 0 if score 25Mins GameSetup matches 1 run tellraw @a {"text":"10 Min Mark, 15 Mins Remain","bold":true,"color":"gold"}
 execute if score minutes time matches 20 if score seconds time matches 0 if score 25Mins GameSetup matches 1 run tellraw @a {"text":"20 Min Mark, 5 Mins Remain","bold":true,"color":"gold"}
+
+scoreboard players enable @a signs
+function bingo:lobby/signs
