@@ -10,6 +10,8 @@ There's the 2 different ways you can download and play Minecraft Bingo.
 
 &gt; To play the game create a new minecraft world and add this datapack into the world's datapack folder. Unzip the file there and then select it from the new world creation menu in the game. Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled. Once you load into the world run the command "/function bingo:master/setup" directly or run the command "/reload" to have the command appear in chat for you to click. This will create the Bingo Lobby. If on a server, make sure that command blocks are turned on in the server configs.  
 
+**Note**: For servers when you use the "Datapack Only" file, when the server loads, have only one person (admin/op) join the server to set-up the world. This will prevent issues of players getting the bug of maps not working, or the screen telling them to open the map constantly once the game has already loaded.
+
 2) Second is the World Save that includes the Datapack. More info on that see below:
 
 &gt; This option is best for those who have lower end computers and have had large lag spikes & issues when setting up the datapack in a new world and also for those who aren't as familiar with how to install datapacks. To play the game simply unzip the file in your saves folder in your .minecraft folder.  
