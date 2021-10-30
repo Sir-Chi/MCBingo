@@ -1,0 +1,21 @@
+{
+    "display": {
+	"icon": {
+		"item": "minecraft:sweet_berries"
+        },
+        "title": {
+          "translate": "item.minecraft.sweet_berries"
+        },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "bingo:possibleitems/catagory32a",
+      "criteria": {
+        "impossible": {
+          "trigger": "minecraft:impossible"
+    }
+  }
+}

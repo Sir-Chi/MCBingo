@@ -1,0 +1,21 @@
+{
+    "display": {
+	"icon": {
+		"item": "minecraft:brick"
+        },
+        "title": {
+          "translate": "item.minecraft.brick"
+        },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "bingo:possibleitems/catagory19a",
+      "criteria": {
+        "impossible": {
+          "trigger": "minecraft:impossible"
+    }
+  }
+}

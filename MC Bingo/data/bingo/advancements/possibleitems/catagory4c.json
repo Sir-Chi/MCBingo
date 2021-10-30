@@ -1,0 +1,21 @@
+{
+    "display": {
+	"icon": {
+		"item": "minecraft:glow_item_frame"
+        },
+        "title": {
+          "translate": "item.minecraft.glow_item_frame"
+        },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "bingo:possibleitems/catagory3c",
+      "criteria": {
+        "impossible": {
+          "trigger": "minecraft:impossible"
+    }
+  }
+}

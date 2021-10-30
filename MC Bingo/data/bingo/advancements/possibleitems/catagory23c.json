@@ -1,0 +1,21 @@
+{
+    "display": {
+	"icon": {
+		"item": "minecraft:golden_apple"
+        },
+        "title": {
+          "translate": "item.minecraft.golden_apple"
+        },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "bingo:possibleitems/catagory22c",
+      "criteria": {
+        "impossible": {
+          "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+	"icon": {
+		"item": "minecraft:bamboo"
+        },
+        "title": {
+          "translate": "block.minecraft.bamboo"
+        },
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "bingo:possibleitems/catagory33c",
+      "criteria": {
+        "impossible": {
+          "trigger": "minecraft:impossible"
+    }
+  }
+}
