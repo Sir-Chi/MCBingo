@@ -4,4 +4,9 @@ teleport @s -1 107 -9
 spawnpoint @s -1 107 -9
 gamemode adventure @s
 scoreboard players set @s hasMaps 5
+advancement grant @a only bingo:possibleitems/root
+advancement grant @a only bingo:possibleitems/end_cap1
+advancement grant @a only bingo:possibleitems/end_cap2
+advancement grant @a only bingo:possibleitems/end_cap3
+advancement grant @a only bingo:possibleitems/end_cap4
 tag @s add Joined

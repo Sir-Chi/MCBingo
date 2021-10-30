@@ -15,3 +15,10 @@ scoreboard players set Teams GameSetup 0
 scoreboard players set AutoEnd GameSetup 0
 
 recipe give @a *
+
+advancement revoke @a everything
+advancement grant @a only bingo:possibleitems/root
+advancement grant @a only bingo:possibleitems/end_cap1
+advancement grant @a only bingo:possibleitems/end_cap2
+advancement grant @a only bingo:possibleitems/end_cap3
+advancement grant @a only bingo:possibleitems/end_cap4
