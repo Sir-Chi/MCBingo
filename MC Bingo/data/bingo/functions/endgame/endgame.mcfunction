@@ -25,6 +25,12 @@ clear @a
 difficulty peaceful
 gamerule doDaylightCycle false
 time set 0
+advancement revoke @a everything
+advancement grant @a only bingo:possibleitems/root
+advancement grant @a only bingo:possibleitems/end_cap1
+advancement grant @a only bingo:possibleitems/end_cap2
+advancement grant @a only bingo:possibleitems/end_cap3
+advancement grant @a only bingo:possibleitems/end_cap4
 
 kill @e[tag=tpasblue]
 kill @e[tag=tpasred]
