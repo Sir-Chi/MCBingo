@@ -96,11 +96,12 @@ scoreboard players set remain S 0
 scoreboard players set which S 0
 scoreboard players set macCol S 0
 scoreboard players set whichX S 0
-scoreboard players set whichZ S 0
+scoreboard players set whichR1 S 0
+scoreboard players set whichR2 S 0
+scoreboard players set whichR3 S 0
+scoreboard players set whichR4 S 0
 scoreboard players set x1 S 0
 scoreboard players set x2 S 0
-scoreboard players set z1 S 0
-scoreboard players set z2 S 0
 
 scoreboard players set Seed Score 0
 
