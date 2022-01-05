@@ -86,4 +86,10 @@ summon area_effect_cloud -1 117 -9 {NoGravity:1b,Duration:999999999,CustomName:'
 ##Summons the Timer AOC
 summon area_effect_cloud -1 117 -14 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
+##Summons the Team Rotate Armour Stands
+summon armor_stand -22 114 -6 {NoGravity:1b,Invulnerable:1b,Marker:1b,Tags:["blueRotate"]}
+summon armor_stand -22 114 -8 {NoGravity:1b,Invulnerable:1b,Marker:1b,Tags:["redRotate"]}
+summon armor_stand -22 114 -10 {NoGravity:1b,Invulnerable:1b,Marker:1b,Tags:["greenRotate"]}
+summon armor_stand -22 114 -12 {NoGravity:1b,Invulnerable:1b,Marker:1b,Tags:["yellowRotate"]}
+
 function bingo:lobby/firstmapdetect
