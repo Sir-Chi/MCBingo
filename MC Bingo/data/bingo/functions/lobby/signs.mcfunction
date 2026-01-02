@@ -68,13 +68,13 @@ execute if entity @a[scores={signs=28}] run scoreboard players set Lockout GameS
 execute if entity @a[scores={signs=29}] run tellraw @a ["",{"text":"Made by SirChi. My other projects can be found ","color":"gold"},{"text":"here","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"https://www.curseforge.com/members/sirchi/projects"},"hoverEvent":{"action":"show_text","contents":["https://www.curseforge.com/members/sirchi/projects"]}}]
 
 ##Join Blue Team
-execute if entity @a[scores={signs=35}] run execute as @p[x=10,y=107,z=-16,dx=4,dy=4,dz=4,scores={signs=35}] run team join blue @s
+execute if entity @a[scores={signs=35}] run execute as @p[x=10,y=278,z=-16,dx=4,dy=4,dz=4,scores={signs=35}] run team join blue @s
 
 ##Join Yellow Team
-execute if entity @a[scores={signs=36}] run execute as @p[x=10,y=107,z=-6,dx=4,dy=4,dz=4,scores={signs=36}] run team join yellow @s
+execute if entity @a[scores={signs=36}] run execute as @p[x=10,y=278,z=-6,dx=4,dy=4,dz=4,scores={signs=36}] run team join yellow @s
 
 ##Join Green Team
-execute if entity @a[scores={signs=37}] run execute as @p[x=-16,y=107,z=-16,dx=4,dy=4,dz=4,scores={signs=37}] run team join green @s
+execute if entity @a[scores={signs=37}] run execute as @p[x=-16,y=278,z=-16,dx=4,dy=4,dz=4,scores={signs=37}] run team join green @s
 
 ##Join Red Team
-execute if entity @a[scores={signs=38}] run execute as @p[x=-16,y=107,z=-6,dx=4,dy=4,dz=4,scores={signs=38}] run team join red @s
+execute if entity @a[scores={signs=38}] run execute as @p[x=-16,y=278,z=-6,dx=4,dy=4,dz=4,scores={signs=38}] run team join red @s

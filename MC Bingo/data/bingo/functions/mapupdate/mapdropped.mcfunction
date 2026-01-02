@@ -1,6 +1,6 @@
 #Step 1. Deletes the droped map item entity. Tags 1 player around the droped map with a tag "playerThatWantsToUpdate" unless there is already a player with that tag.
 kill @e[tag=droppedMap]
-kill @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{map:0}}},x=10,dx=2,y=102,dy=2,z=-9,dz=2]
+kill @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{map:0}}},x=10,dx=2,y=273,dy=2,z=-9,dz=2]
 ##tag @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{map:0}}}] add droppedMap
 execute as @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{map:0}}}] run tag @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{map:0}}}] add droppedMap
 

@@ -1,6 +1,6 @@
 #Finalises the card and places the pixel art.
 
-execute if score I S matches ..0 run data merge block 12 109 -9 {auto:1b}
+execute if score I S matches ..0 run data merge block 12 280 -9 {auto:1b}
 
 execute if score I S matches ..0 run kill @e[tag=whereToPlacePixelArt]
 

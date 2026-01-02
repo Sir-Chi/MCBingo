@@ -34,11 +34,11 @@ effect give @a[team=] night_vision 99999 0 true
 
 tellraw @a {"text":"3","bold":true,"color":"gold"}
 
-execute if score PVP GameSetup matches 1 run execute at @e[type=minecraft:armor_stand,tag=pvpmarker] run fill ~-1 128 ~-1 ~1 133 ~1 air
-execute at @p[tag=blueGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
-execute at @p[tag=redGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
-execute at @p[tag=greenGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
-execute at @p[tag=yellowGuyToTeleport] run fill ~-1 128 ~-1 ~1 133 ~1 air
+execute if score PVP GameSetup matches 1 run execute at @e[type=minecraft:armor_stand,tag=pvpmarker] run fill ~-2 258 ~-2 ~2 263 ~2 air
+execute at @p[tag=blueGuyToTeleport] run fill ~-2 258 ~-2 ~2 263 ~2 air
+execute at @p[tag=redGuyToTeleport] run fill ~-2 258 ~-2 ~2 263 ~2 air
+execute at @p[tag=greenGuyToTeleport] run fill ~-2 258 ~-2 ~2 263 ~2 air
+execute at @p[tag=yellowGuyToTeleport] run fill ~-2 258 ~-2 ~2 263 ~2 air
 
 kill @e[type=minecraft:armor_stand,tag=pvpmarker]
 forceload remove all

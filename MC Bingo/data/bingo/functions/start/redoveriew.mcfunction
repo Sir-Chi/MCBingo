@@ -1,9 +1,9 @@
-#Tps the chosen player into barrier block box at y=130 so they cant do anything but look around.
+#Tps the chosen player into barrier block box at y=260 so they cant do anything but look around.
 #Also spawns an armour stand which falls to find the y level to set the spawn location to.
 tag @e[type=armor_stand,tag=redRotate] remove oneGuyToTeleport
-execute at @p[tag=redGuyToTeleport] align xyz run tp @p[tag=redGuyToTeleport] ~0.5 130 ~0.5
-execute as @p[tag=redGuyToTeleport] at @p[tag=redGuyToTeleport] positioned ~ ~ ~ run fill ~-1 128 ~-1 ~1 133 ~1 barrier hollow
-execute at @p[tag=redGuyToTeleport] align xyz run tp @p[tag=redGuyToTeleport] ~0.5 130 ~0.5
+execute at @p[tag=redGuyToTeleport] align xyz run tp @p[tag=redGuyToTeleport] ~0.5 260 ~0.5
+execute as @p[tag=redGuyToTeleport] at @p[tag=redGuyToTeleport] positioned ~ ~ ~ run fill ~-2 258 ~-2 ~2 263 ~2 barrier hollow
+execute at @p[tag=redGuyToTeleport] align xyz run tp @p[tag=redGuyToTeleport] ~0.5 260 ~0.5
 execute as @p[tag=redGuyToTeleport] at @p[tag=redGuyToTeleport] align xyz run summon armor_stand ~ ~-4 ~ {Invulnerable:1,Tags:["tpasred"]}
 team modify red collisionRule never
 effect give @a[team=red] minecraft:invisibility 99999 0 true

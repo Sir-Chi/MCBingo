@@ -7,7 +7,7 @@ execute if score Lockout GameSetup matches 1 if score Teams TeamCount matches 3 
 execute if score Lockout GameSetup matches 1 if score Teams TeamCount matches 4 run scoreboard players set LockOutGoal Score 7
 
 ##Teleports players into Waiting Lobby & give them resistance
-teleport @a 20 108 -9
+teleport @a 20 279 -9
 effect give @a resistance 999999 20 true
 
 ##Anounces to players that the game is starting

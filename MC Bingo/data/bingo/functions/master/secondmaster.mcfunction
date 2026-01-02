@@ -8,6 +8,7 @@ function bingo:mapupdate/hasmaps
 
 function bingo:lobby/inlobby
 function bingo:lobby/gamesettingsigns
+function bingo:lobby/clearpossibleitems
 function bingo:lobby/signs
 
 execute if score PreGame GameState matches 0 run function bingo:scores/bluegetsitem

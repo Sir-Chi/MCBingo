@@ -1,7 +1,7 @@
 #Spawns an armour stand which falls to find the y level to set the spawn location to.
-execute at @p[tag=pvpGuyToTeleport] align xyz run tp @p[tag=pvpGuyToTeleport] ~0.5 130 ~0.5
-execute as @p[tag=pvpGuyToTeleport] at @p[tag=pvpGuyToTeleport] positioned ~ ~ ~ run fill ~-1 128 ~-1 ~1 133 ~1 barrier hollow
-execute at @p[tag=pvpGuyToTeleport] align xyz run tp @p[tag=pvpGuyToTeleport] ~0.5 130 ~0.5
+execute at @p[tag=pvpGuyToTeleport] align xyz run tp @p[tag=pvpGuyToTeleport] ~0.5 260 ~0.5
+execute as @p[tag=pvpGuyToTeleport] at @p[tag=pvpGuyToTeleport] positioned ~ ~ ~ run fill ~-2 258 ~-2 ~2 263 ~2 barrier hollow
+execute at @p[tag=pvpGuyToTeleport] align xyz run tp @p[tag=pvpGuyToTeleport] ~0.5 260 ~0.5
 team modify blue collisionRule never
 team modify red collisionRule never
 team modify green collisionRule never

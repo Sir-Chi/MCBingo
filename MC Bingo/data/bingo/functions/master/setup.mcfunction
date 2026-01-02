@@ -123,7 +123,7 @@ gamerule sendCommandFeedback false
 data merge storage minecraft:general/generatecard {active:0}
 
 ##Teleports all players to 0,0 ready for Lobby to generate
-tp @a 0 130 0
+tp @a 0 301 0
 
 ##Announces that the Lobby is generating to all players
 title @a title {"text":"Generating Bingo Lobby","color":"gold"}

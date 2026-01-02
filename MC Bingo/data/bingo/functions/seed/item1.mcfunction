@@ -31,15 +31,15 @@ scoreboard players operation which S %= mod S
 scoreboard players operation @e[tag=bingoItem] BItem -= next S
 
 ##Picks which item from a category (like Diamond or Diamond Hoe or Diamond Axe)
-execute if score which S matches 0 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~2 ~0 run clone ~ ~ ~ ~ ~ ~ 12 109 -9
-execute if score which S matches 1 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~1 ~0 run clone ~ ~ ~ ~ ~ ~ 12 109 -9
-execute if score which S matches 2 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~0 ~0 run clone ~ ~ ~ ~ ~ ~ 12 109 -9
+execute if score which S matches 0 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~2 ~0 run clone ~ ~ ~ ~ ~ ~ 12 280 -9
+execute if score which S matches 1 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~1 ~0 run clone ~ ~ ~ ~ ~ ~ 12 280 -9
+execute if score which S matches 2 run execute as @e[tag=bingoItem,scores={BItem=0}] at @e[tag=bingoItem,scores={BItem=0}] positioned ~ ~0 ~0 run clone ~ ~ ~ ~ ~ ~ 12 280 -9
 
 ##Sets the BItem score for all bingoItem AOC markers back to their original score so it can be used again for the next function
 scoreboard players operation @e[tag=bingoItem] BItem += next S
 
 ##Places the item in the correct position on the Bingo Card
-data merge block 12 109 -9 {auto:1b}
+data merge block 12 280 -9 {auto:1b}
 
 ##Sets the BItem score for all bingoItem AOC markers back to their original score so it can be used again for the next function
 scoreboard players operation @e[tag=bingoItem] BItem -= next S

@@ -75,7 +75,7 @@ scoreboard players operation whichR4 S += mod S
 scoreboard players operation whichR4 S %= mod S
 
 ##Find Distance
-summon area_effect_cloud -14 100 -9 {NoGravity:1b,Duration:999999999,Tags:["findblock"]}
+summon area_effect_cloud -14 271 -9 {NoGravity:1b,Duration:999999999,Tags:["findblock"]}
 scoreboard players operation @e[tag=Z] Z -= x2 S
 execute as @e[tag=Z,scores={Z=-60}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
 execute as @e[tag=Z,scores={Z=-59}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
@@ -145,10 +145,10 @@ execute as @e[tag=Z,scores={Z=-2}] at @e[type=area_effect_cloud,tag=findblock] r
 execute as @e[tag=Z,scores={Z=-1}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 execute as @e[tag=Z,scores={Z=0}] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~ ~1 ~
 scoreboard players operation @e[tag=Z] Z += x1 S
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -29 113 -9
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ -29 284 -9
 
 ##Find 1st Rotation
-tp @e[tag=findblock] -14 103 -11
+tp @e[tag=findblock] -14 274 -11
 execute if score whichR1 S matches 1 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
 execute if score whichR1 S matches 2 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-2 ~ ~
 execute if score whichR1 S matches 3 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-3 ~ ~
@@ -158,10 +158,10 @@ execute if score whichR1 S matches 6 run execute as @e[type=area_effect_cloud,ta
 execute if score whichR1 S matches 7 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-7 ~ ~
 execute if score whichR1 S matches 8 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-8 ~ ~
 execute if score whichR1 S matches 9 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-9 ~ ~
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 6 102 -16
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 6 273 -16
 
 ##Find 2nd Rotation
-tp @e[tag=findblock] -14 102 -11
+tp @e[tag=findblock] -14 273 -11
 execute if score whichR2 S matches 1 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
 execute if score whichR2 S matches 2 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-2 ~ ~
 execute if score whichR2 S matches 3 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-3 ~ ~
@@ -171,10 +171,10 @@ execute if score whichR2 S matches 6 run execute as @e[type=area_effect_cloud,ta
 execute if score whichR2 S matches 7 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-7 ~ ~
 execute if score whichR2 S matches 8 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-8 ~ ~
 execute if score whichR2 S matches 9 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-9 ~ ~
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 5 102 -16
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 5 273 -16
 
 ##Find 3rd Rotation
-tp @e[tag=findblock] -14 101 -11
+tp @e[tag=findblock] -14 272 -11
 execute if score whichR3 S matches 1 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
 execute if score whichR3 S matches 2 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-2 ~ ~
 execute if score whichR3 S matches 3 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-3 ~ ~
@@ -184,10 +184,10 @@ execute if score whichR3 S matches 6 run execute as @e[type=area_effect_cloud,ta
 execute if score whichR3 S matches 7 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-7 ~ ~
 execute if score whichR3 S matches 8 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-8 ~ ~
 execute if score whichR3 S matches 9 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-9 ~ ~
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 4 102 -16
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 4 273 -16
 
 ##Find 4th Rotation
-tp @e[tag=findblock] -14 100 -11
+tp @e[tag=findblock] -14 271 -11
 execute if score whichR4 S matches 1 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-1 ~ ~
 execute if score whichR4 S matches 2 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-2 ~ ~
 execute if score whichR4 S matches 3 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-3 ~ ~
@@ -197,7 +197,7 @@ execute if score whichR4 S matches 6 run execute as @e[type=area_effect_cloud,ta
 execute if score whichR4 S matches 7 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-7 ~ ~
 execute if score whichR4 S matches 8 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-8 ~ ~
 execute if score whichR4 S matches 9 run execute as @e[type=area_effect_cloud,tag=findblock] at @e[type=area_effect_cloud,tag=findblock] run tp @e[type=area_effect_cloud,tag=findblock] ~-9 ~ ~
-execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 3 102 -16
+execute as @e[tag=findblock] at @e[tag=findblock] positioned ~ ~ ~ run clone ~ ~ ~ ~ ~ ~ 3 273 -16
 
 kill @e[tag=findblock]
 

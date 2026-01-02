@@ -39,7 +39,7 @@ title @a title {"text":"Generating New Bingo Card","color":"gold"}
 title @a subtitle {"text":"Please Stand By..","color":"gold"}
 
 ##Removes any team colours from the Card
-fill 58 119 -64 -60 119 55 air
+fill 58 290 -64 -60 290 55 air
 
 ##Removes all AOC (used for the bingo items/positions) currently in the world
 kill @e[type=area_effect_cloud,tag=carditem]

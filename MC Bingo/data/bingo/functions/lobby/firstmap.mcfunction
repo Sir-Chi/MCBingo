@@ -1,6 +1,6 @@
 ##After has opened their map for the first time creating the base for the Card.
 
-tp @a -1 107 -9
+tp @a -1 278 -9
 
 schedule clear bingo:lobby/firstmap 
 

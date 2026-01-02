@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:mineshaft",
+    "biomes": [],
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "mineshaft_type": "normal"
+  }
+  

@@ -44,9 +44,9 @@ scoreboard players set @e[type=area_effect_cloud,name="Timer"] time 0
 scoreboard players set minutes time 0
 scoreboard players set seconds time 0
 
-tp @a -1 107 -9
-spawnpoint @a -1 107 -9
-setworldspawn -1 107 -9
+tp @a -1 278 -9
+spawnpoint @a -1 278 -9
+setworldspawn -1 278 -9
 
 #scoreboard players set BaseBingo GameSetup 0
 #scoreboard players set 25Mins GameSetup 0
