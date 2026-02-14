@@ -1,0 +1,8 @@
+gamerule advance_time true
+gamerule advance_weather true
+gamerule raids true
+gamerule show_advancement_messages true
+gamerule spawn_monsters true
+gamerule spawn_patrols true
+gamerule spawn_phantoms true
+gamerule spawn_wandering_traders true

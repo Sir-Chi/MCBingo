@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'13', 'difficulty': '3', 'name':'block.minecraft.cake', 'item':'cake'}

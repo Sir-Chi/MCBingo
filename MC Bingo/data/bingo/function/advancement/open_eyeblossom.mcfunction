@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'49', 'difficulty': '3', 'name':'block.minecraft.open_eyeblossom', 'item':'open_eyeblossom'}

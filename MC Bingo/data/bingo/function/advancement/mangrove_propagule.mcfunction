@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'49', 'difficulty': '1', 'name':'block.minecraft.mangrove_propagule', 'item':'mangrove_propagule'}

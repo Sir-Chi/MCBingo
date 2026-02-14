@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'11', 'difficulty': '2', 'name':'block.minecraft.acacia_sapling', 'item':'acacia_sapling'}

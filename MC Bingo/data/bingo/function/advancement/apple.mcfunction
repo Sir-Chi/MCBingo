@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'33', 'difficulty': '1', 'name':'item.minecraft.apple', 'item':'apple'}

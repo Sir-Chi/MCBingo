@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket",
+      "count": 1
+    },
+    "title": {
+      "translate": "item.minecraft.firework_rocket"
+    },
+    "description": "This item has to be crafted",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bingo:possible_items/category23c",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

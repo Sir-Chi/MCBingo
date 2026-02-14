@@ -1,0 +1,31 @@
+{
+  "parent": "bingo:item_detection/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_rocket",
+        "ingredients": [
+          {
+            "items": "minecraft:paper"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Category 24, Difficulty 2-3",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:firework_rocket"
+    },
+    "title": "Firework Rocket"
+  },
+  "rewards": {
+    "function": "bingo:advancement/firework_rocket"
+  }
+}

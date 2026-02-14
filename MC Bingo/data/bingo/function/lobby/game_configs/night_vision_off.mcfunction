@@ -1,0 +1,2 @@
+scoreboard players set nightVision gameSetup 0
+data merge block -18 250 2 {front_text:{messages:["",{"text":"Night Vision","color":"white","bold":true},{"text":"OFF","color":"dark_red","bold":true},""]},is_waxed:1b}

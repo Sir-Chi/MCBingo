@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'38', 'difficulty': '2', 'name':'item.minecraft.armor_stand', 'item':'armor_stand'}

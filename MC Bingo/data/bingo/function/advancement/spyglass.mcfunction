@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'44', 'difficulty': '2-3', 'name':'item.minecraft.spyglass', 'item':'spyglass'}

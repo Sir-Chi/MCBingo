@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'12', 'difficulty': '2', 'name':'item.minecraft.music_disc_cat', 'item':'music_disc_cat'}

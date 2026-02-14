@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.acacia_sapling"
+    },
+    "description": "",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bingo:possible_items/difficulty2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'43', 'difficulty': '3', 'name':'item.minecraft.harness', 'item':'#minecraft:harnesses', 'special_item':'harness'}

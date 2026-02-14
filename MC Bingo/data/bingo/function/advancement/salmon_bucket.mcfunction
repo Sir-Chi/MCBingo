@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'40', 'difficulty': '1', 'name':'item.minecraft.salmon_bucket', 'item':'salmon_bucket'}

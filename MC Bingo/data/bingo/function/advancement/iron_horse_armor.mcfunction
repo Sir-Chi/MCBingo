@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'41', 'difficulty': '1', 'name':'item.minecraft.iron_horse_armor', 'item':'iron_horse_armor'}

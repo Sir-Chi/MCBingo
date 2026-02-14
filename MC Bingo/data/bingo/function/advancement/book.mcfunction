@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'32', 'difficulty': '2', 'name':'item.minecraft.book', 'item':'book'}

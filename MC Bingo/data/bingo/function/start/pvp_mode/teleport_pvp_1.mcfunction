@@ -1,0 +1,1 @@
+execute as @a[tag=pvpGuyToTeleport] in minecraft:overworld run function bingo:start/pvp_mode/teleport_pvp_2 with storage bingo:coordinates input

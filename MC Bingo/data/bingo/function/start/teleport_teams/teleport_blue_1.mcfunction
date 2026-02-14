@@ -1,0 +1,1 @@
+execute as @a[tag=blueGuyToTeleport] in minecraft:overworld run function bingo:start/teleport_teams/teleport_blue_2 with storage bingo:coordinates input

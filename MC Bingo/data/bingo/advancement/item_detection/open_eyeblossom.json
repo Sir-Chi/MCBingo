@@ -1,0 +1,34 @@
+{
+  "parent": "bingo:item_detection/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:open_eyeblossom",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Category 28, Difficulty 1-2",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": "Eye Blossom"
+  },
+  "rewards": {
+    "function": "bingo:advancement/open_eyeblossom"
+  }
+}

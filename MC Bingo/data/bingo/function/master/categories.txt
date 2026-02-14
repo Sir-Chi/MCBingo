@@ -1,0 +1,223 @@
+Categories
+
+Any Difficulty (0)
+Category 1
+0 - glass_bottle
+Category 2
+0 - rail
+Category 3
+0 - mushroom_stew
+Category 4
+0 - cauldron
+Category 5
+0 - leather_horse_armor
+Category 6
+0 - repeater
+Category 7
+0 - boat_with_chest
+Category 8
+0 - emerald
+Category 9
+0 - beetroot_soup
+Category 10
+0 - name_tag
+
+Category 11
+1 - spruce_sapling
+2 - acacia_sapling
+3 - dark_oak_sapling
+
+Category 12
+1 - cobweb
+2 - music_disc_cat
+3 - enchanted_book
+
+Category 13
+1 - milk_bucket
+2 - egg
+3 - cake
+
+Category 14
+1 - painting
+2 - item_frame
+3 - glow_item_frame
+
+Category 15
+1 - golden_sword
+2 - clock
+3 - powered_rail
+
+Category 16
+1 - hopper
+2 - hopper
+3 - hopper_minecart (Minecart with Hopper)
+
+Category 17
+1 - cocoa_beans
+2 - cookie
+3 - cookie
+
+Category 18
+1 - pumpkin_seeds 
+2 - pumpkin_pie
+3 - pumpkin_pie
+
+Category 19
+1 - sugar
+2 - spider_eye
+3 - fermented_spider_eye
+
+Category 20
+1 - green_dye
+2 - green_dye
+3 - lime_dye
+
+Category 21
+1 - blue_dye
+2 - magenta_dye
+3 - cyan_dye
+
+Category 22
+1 - pointed_dripstone
+2 - glow_berries
+3 - firefly_bush
+
+Category 23
+1 - furnace_minecart (Minecart with Furnace)
+2 - chest_minecart (Minecart with Chest)
+3 - tnt_minecart (Minecart with TNT)
+
+Category 24
+1 - gunpowder
+2 - firework_rocket
+3 - firework_rocket
+
+Category 25
+1 - compass
+2 - compass
+3 - map
+
+Category 26
+1 - diamond
+2 - diamond_hoe
+3 - diamond_axe
+
+Category 27
+1 - bone
+2 - gray_dye
+3 - gray_dye
+
+Category 28
+1 - enderpearl
+2 - enderpearl
+3 - slime_ball (Slimeball)
+
+Category 29
+1 - fern
+2 - vines
+3 - dead_bush
+
+Category 30
+1 - brick
+2 - flower_pot
+3 - field_masoned_banner_pattern
+
+Category 31
+1 - melon_slice
+2 - melon_slice
+3 - glistering_melon_slice
+
+Category 32
+1 - ink_sac 
+2 - book
+3 - writable_book (Book and Quill)
+
+Category 33
+1 - apple
+2 - golden_shovel
+3 - golden_apple
+
+Category 34
+1 - flint
+2 - flint
+3 - flint_and_steel
+
+Category 35
+1 - cornflower
+2 - blue_orchid
+3 - allium
+
+Category 36
+1 - kelp
+2 - seagrass
+3 - sea_pickle
+
+Category 37
+1 - sweet_berries
+2 - cooked_rabbit
+3 - rabbit_stew
+
+Category 38
+1 - sign
+2 - armor_stand
+3 - hanging_sign
+
+Category 39
+1 - cooked_cod
+2 - campfire
+3 - crossbow
+
+Category 40
+1 - salmon_bucket (Bucket of Salmon)
+2 - tropical_fish_bucket (Bucket of Tropical Fish)
+3 - pufferfish_bucket (Bucket of Pufferfish)
+
+Category 41
+1 - iron_horse_armour
+2 - golden_horse_armour
+3 - diamond_horse_armour
+
+Category 42
+1 - brush
+2 - copper_lantern
+3 - copper_axe
+
+Category 43
+1 - bundle
+2 - saddle
+3 - harness
+
+Category 44
+1 - amethyst_shard
+2 - spyglass
+3 - spyglass
+
+Category 45
+1 - armadillo_scute
+2 - armadillo_scute
+3 - wolf_armour
+
+Category 46
+1 - bow
+2 - lead
+3 - carrot_on_a_stick
+
+Category 47
+1 - honeycomb
+2 - candle
+3 - honey_bottle
+
+Category 48
+1 - breeze_rod
+2 - breeze_rod
+3 - trial_key
+
+Category 49
+1 - mangrove_propagule
+2 - bamboo
+3 - eyeblossom
+
+Category 50
+1 - lapis_lazuli
+2 - lapis_lazuli
+3 - bell

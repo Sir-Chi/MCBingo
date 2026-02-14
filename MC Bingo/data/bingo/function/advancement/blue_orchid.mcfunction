@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'35', 'difficulty': '2', 'name':'block.minecraft.blue_orchid', 'item':'blue_orchid'}

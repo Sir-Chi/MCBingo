@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Assign Random Teams",
+    "color": "dark_purple",
+    "underlined": true
+  },
+  "external_title": "assign random teams",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Randomly assign all players onto 2, 3, or 4 teams."
+    },
+    "width": 300
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "2 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/2_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "3 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/3_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "4 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/4_teams"
+      }
+    }
+  ]
+}

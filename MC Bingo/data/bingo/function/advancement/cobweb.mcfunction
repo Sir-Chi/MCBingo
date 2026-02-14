@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'12', 'difficulty': '1', 'name':'block.minecraft.cobweb', 'item':'cobweb'}

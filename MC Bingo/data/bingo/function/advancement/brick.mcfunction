@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'30', 'difficulty': '1', 'name':'item.minecraft.brick', 'item':'brick'}

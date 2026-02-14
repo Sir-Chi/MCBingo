@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'32', 'difficulty': '1', 'name':'item.minecraft.ink_sac', 'item':'ink_sac'}

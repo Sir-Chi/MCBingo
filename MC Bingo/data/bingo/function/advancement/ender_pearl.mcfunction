@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'28', 'difficulty': '1-2', 'name':'item.minecraft.ender_pearl', 'item':'ender_pearl'}

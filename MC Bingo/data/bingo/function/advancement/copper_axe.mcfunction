@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'42', 'difficulty': '3', 'name':'item.minecraft.copper_axe', 'item':'copper_axe'}

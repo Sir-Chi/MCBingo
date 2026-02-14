@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Set Seed",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Set Seed",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A \"Seed\" is a number code that will create a unique Bingo Card."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The same \"Seed\" number always yields the same Bingo Card and spawn locations."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "You can also share these codes with others so you can race using the same Card with the same team starting locations!"
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "set_seed",
+      "width": 230,
+      "label": "Insert a number below to use as the next seed"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "actions": [
+    {
+      "label": "Accept",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "function bingo:seed/set_seed_input {set_seed:'$(set_seed)'}"
+      }
+    }
+  ]
+}

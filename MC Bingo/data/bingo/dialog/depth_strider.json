@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Depth Strider",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Depth Strider",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "All players get leather boots with the Depth Strider III enchant.",
+        "color": "aqua"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, players will get Depth Strider boots for the game."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, players will not get Depth Strider boots for the game."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "bingo:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "ON",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_configs/depth_strider_on"
+      }
+    },
+    {
+      "label": {
+        "text": "OFF",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_configs/depth_strider_off"
+      }
+    }
+  ]
+}

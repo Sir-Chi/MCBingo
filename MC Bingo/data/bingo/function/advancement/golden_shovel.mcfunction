@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'33', 'difficulty': '2', 'name':'item.minecraft.golden_shovel', 'item':'golden_shovel'}

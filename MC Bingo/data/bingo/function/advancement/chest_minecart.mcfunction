@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'23', 'difficulty': '2', 'name':'item.minecraft.chest_minecart', 'item':'chest_minecart'}

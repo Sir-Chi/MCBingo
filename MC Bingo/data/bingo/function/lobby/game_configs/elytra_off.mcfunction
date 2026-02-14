@@ -1,0 +1,2 @@
+scoreboard players set elytra gameSetup 0
+data merge block -22 250 2 {front_text:{messages:["",{"text":"Elytra","color":"white","bold":true},{"text":"OFF","color":"dark_red","bold":true},""]},is_waxed:1b}

@@ -1,0 +1,8 @@
+# Ran by every item detection advancement as player who got advancement with that player's team
+
+# Checks the player's team and then checks to see if no other team has obtained the item already thus locking the item out
+
+$execute as @s[team=blue] if score $(item) itemsBlue matches 0 if score $(item) itemsRed matches 0 if score $(item) itemsGreen matches 0 if score $(item) itemsYellow matches 0 run return run function bingo:universal/handle_item_obtained_lockout {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', team:'$(team)', team_name:'$(team_name)'}
+$execute as @s[team=red] if score $(item) itemsRed matches 0 if score $(item) itemsBlue matches 0 if score $(item) itemsGreen matches 0 if score $(item) itemsYellow matches 0 run return run function bingo:universal/handle_item_obtained_lockout {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', team:'$(team)', team_name:'$(team_name)'}
+$execute as @s[team=green] if score $(item) itemsGreen matches 0 if score $(item) itemsBlue matches 0 if score $(item) itemsRed matches 0 if score $(item) itemsYellow matches 0 run return run function bingo:universal/handle_item_obtained_lockout {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', team:'$(team)', team_name:'$(team_name)'}
+$execute as @s[team=yellow] if score $(item) itemsYellow matches 0 if score $(item) itemsBlue matches 0 if score $(item) itemsRed matches 0 if score $(item) itemsGreen matches 0 run return run function bingo:universal/handle_item_obtained_lockout {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', team:'$(team)', team_name:'$(team_name)'}

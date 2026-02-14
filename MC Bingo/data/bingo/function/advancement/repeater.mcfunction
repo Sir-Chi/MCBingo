@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'6', 'difficulty': '0', 'name':'block.minecraft.repeater', 'item':'repeater'}

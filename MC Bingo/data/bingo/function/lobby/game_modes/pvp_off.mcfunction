@@ -1,0 +1,2 @@
+scoreboard players set bingoPvp gameSetup 0
+data merge block -25 250 1 {front_text:{messages:["",{"text":"PvP","color":"white","bold":true},{"text":"OFF","color":"dark_red","bold":true},""]},is_waxed:1b}

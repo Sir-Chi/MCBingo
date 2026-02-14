@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness",
+      "count": 1
+    },
+    "title": {
+      "translate": "item.minecraft.harness"
+    },
+    "description": "Can be a harness of any colour",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bingo:possible_items/category42c",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

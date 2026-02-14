@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'34', 'difficulty': '3', 'name':'item.minecraft.flint_and_steel', 'item':'flint_and_steel'}

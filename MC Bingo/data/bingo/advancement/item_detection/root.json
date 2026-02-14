@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUyYmY3ZmE5OTAyYTZiNTVjM2VkN2RiZGMzOGZlMWExYWNhNzljMGEzNWVmYzY2ZDcyYWJkZmQ3Y2Y3MGM5MSJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Item Detection",
+		"frame": "challenge",
+		"description": [{"text":"Hidden Page For The Detection Of Items","color":"gold"}],
+		"background": "minecraft:block/cyan_terracotta",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'15', 'difficulty': '2', 'name':'item.minecraft.clock', 'item':'clock'}

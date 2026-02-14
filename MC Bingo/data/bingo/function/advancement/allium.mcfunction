@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'35', 'difficulty': '3', 'name':'block.minecraft.allium', 'item':'allium'}

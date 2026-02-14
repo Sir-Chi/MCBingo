@@ -1,0 +1,26 @@
+#Determines the items to be used for each of the 25 bingo card slots based on the chosen categories and difficulties
+function bingo:seed/chosen_items {"item_number":"1"}
+function bingo:seed/chosen_items {"item_number":"2"}
+function bingo:seed/chosen_items {"item_number":"3"}
+function bingo:seed/chosen_items {"item_number":"4"}
+function bingo:seed/chosen_items {"item_number":"5"}
+function bingo:seed/chosen_items {"item_number":"6"}
+function bingo:seed/chosen_items {"item_number":"7"}
+function bingo:seed/chosen_items {"item_number":"8"}
+function bingo:seed/chosen_items {"item_number":"9"}
+function bingo:seed/chosen_items {"item_number":"10"}
+function bingo:seed/chosen_items {"item_number":"11"}
+function bingo:seed/chosen_items {"item_number":"12"}
+function bingo:seed/chosen_items {"item_number":"13"}
+function bingo:seed/chosen_items {"item_number":"14"}
+function bingo:seed/chosen_items {"item_number":"15"}
+function bingo:seed/chosen_items {"item_number":"16"}
+function bingo:seed/chosen_items {"item_number":"17"}
+function bingo:seed/chosen_items {"item_number":"18"}
+function bingo:seed/chosen_items {"item_number":"19"}
+function bingo:seed/chosen_items {"item_number":"20"}
+function bingo:seed/chosen_items {"item_number":"21"}
+function bingo:seed/chosen_items {"item_number":"22"}
+function bingo:seed/chosen_items {"item_number":"23"}
+function bingo:seed/chosen_items {"item_number":"24"}
+function bingo:seed/chosen_items {"item_number":"25"}

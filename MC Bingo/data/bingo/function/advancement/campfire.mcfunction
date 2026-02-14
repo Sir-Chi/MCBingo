@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'39', 'difficulty': '2', 'name':'block.minecraft.campfire', 'item':'campfire'}

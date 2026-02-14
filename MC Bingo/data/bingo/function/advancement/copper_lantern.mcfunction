@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'42', 'difficulty': '2', 'name':'block.minecraft.copper_lantern', 'item':'copper_lantern'}

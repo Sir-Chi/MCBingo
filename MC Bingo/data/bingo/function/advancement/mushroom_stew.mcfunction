@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'3', 'difficulty': '0', 'name':'item.minecraft.mushroom_stew', 'item':'mushroom_stew'}

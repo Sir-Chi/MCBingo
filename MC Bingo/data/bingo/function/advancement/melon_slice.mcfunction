@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'31', 'difficulty': '1-2', 'name':'item.minecraft.melon_slice', 'item':'melon_slice'}

@@ -1,0 +1,2 @@
+scoreboard players set allRecipesUnlocked gameSetup 1
+data merge block -23 250 2 {front_text:{messages:[{"text":"All Recipes","color":"white","bold":true},{"text":"Unlocked","color":"white","bold":true},{"text":"ON","color":"dark_green","bold":true},""]},is_waxed:1b}

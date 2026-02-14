@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'50', 'difficulty': '3', 'name':'block.minecraft.bell', 'item':'bell'}

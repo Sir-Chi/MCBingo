@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'41', 'difficulty': '3', 'name':'item.minecraft.diamond_horse_armor', 'item':'diamond_horse_armor'}

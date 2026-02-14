@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'47', 'difficulty': '2', 'name':'block.minecraft.candle', 'item':'#minecraft:candles', 'special_item':'candle'}

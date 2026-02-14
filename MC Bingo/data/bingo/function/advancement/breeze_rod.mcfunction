@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'48', 'difficulty': '1-2', 'name':'item.minecraft.breeze_rod', 'item':'breeze_rod'}

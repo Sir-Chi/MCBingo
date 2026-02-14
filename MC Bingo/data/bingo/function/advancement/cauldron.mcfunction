@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'4', 'difficulty': '0', 'name':'item.minecraft.cauldron', 'item':'cauldron'}

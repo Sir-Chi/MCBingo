@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'30', 'difficulty': '2', 'name':'item.minecraft.flower_pot', 'item':'flower_pot'}

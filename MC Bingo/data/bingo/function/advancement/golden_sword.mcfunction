@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'15', 'difficulty': '1', 'name':'item.minecraft.golden_sword', 'item':'golden_sword'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'5', 'difficulty': '0', 'name':'item.minecraft.leather_horse_armor', 'item':'leather_horse_armor'}

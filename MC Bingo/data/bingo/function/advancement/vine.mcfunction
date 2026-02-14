@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'29', 'difficulty': '2', 'name':'block.minecraft.vine', 'item':'vine'}

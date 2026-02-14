@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'21', 'difficulty': '2', 'name':'item.minecraft.magenta_dye', 'item':'magenta_dye'}

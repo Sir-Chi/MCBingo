@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'33', 'difficulty': '3', 'name':'item.minecraft.golden_apple', 'item':'golden_apple'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'45', 'difficulty': '3', 'name':'item.minecraft.wolf_armor', 'item':'wolf_armor'}

@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'7', 'difficulty': '0', 'name':'item.minecraft.oak_chest_boat', 'item':'#minecraft:chest_boats', 'special_item':'boat_with_chest'}

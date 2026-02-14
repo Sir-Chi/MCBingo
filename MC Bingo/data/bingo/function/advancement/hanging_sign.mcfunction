@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'38', 'difficulty': '3', 'name':'block.minecraft.oak_hanging_sign', 'item':'#minecraft:hanging_signs', 'special_item':'hanging_sign'}

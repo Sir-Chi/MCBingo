@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'8', 'difficulty': '0', 'name':'item.minecraft.emerald', 'item':'emerald'}

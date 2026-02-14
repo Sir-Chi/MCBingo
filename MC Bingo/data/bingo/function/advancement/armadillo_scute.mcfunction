@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'45', 'difficulty': '1-2', 'name':'item.minecraft.armadillo_scute', 'item':'armadillo_scute'}

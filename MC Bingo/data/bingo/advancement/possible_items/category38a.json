@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.oak_sign"
+    },
+    "description": "Can be a sign made from any wood",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bingo:possible_items/category37a",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

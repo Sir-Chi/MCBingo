@@ -1,0 +1,2 @@
+scoreboard players set speed gameSetup 1
+data merge block -19 250 2 {front_text:{messages:["",{"text":"Speed","color":"white","bold":true},{"text":"ON","color":"dark_green","bold":true},""]},is_waxed:1b}

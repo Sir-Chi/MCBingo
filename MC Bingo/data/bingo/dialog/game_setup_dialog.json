@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Game Setup",
+    "color": "gold",
+    "underlined": true
+  },
+  "dialogs": [
+    "bingo:bingo_5_in_a_line",
+    "bingo:bingo_timed",
+    "bingo:bingo_blackout",
+    "bingo:bingo_lockout",
+    "bingo:bingo_pvp",
+    "bingo:condensed_teams",
+    "bingo:depth_strider",
+    "bingo:elytra",
+    "bingo:speed",
+    "bingo:night_vision",
+    "bingo:all_recipes_unlocked"
+  ]
+}

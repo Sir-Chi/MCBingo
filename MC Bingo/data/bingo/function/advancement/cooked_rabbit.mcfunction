@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'37', 'difficulty': '2', 'name':'item.minecraft.cooked_rabbit', 'item':'cooked_rabbit'}

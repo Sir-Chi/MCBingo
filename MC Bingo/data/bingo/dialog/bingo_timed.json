@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Timed",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Timed",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Gather as many items as possible within 25 minutes (1500 seconds) as a timed challenge!",
+        "color": "aqua"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, the game will automatically end after 25 mintues."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, the game will not automatically end and will continue to be able to be played even after 25 minutes."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "bingo:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "ON",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "scoreboard players set bingoTimed gameSetup 1"
+      }
+    },
+    {
+      "label": {
+        "text": "OFF",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "scoreboard players set bingoTimed gameSetup 0"
+      }
+    }
+  ]
+}

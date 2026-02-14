@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'43', 'difficulty': '2', 'name':'item.minecraft.saddle', 'item':'saddle'}

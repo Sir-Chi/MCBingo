@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'18', 'difficulty': '2-3', 'name':'item.minecraft.pumpkin_pie', 'item':'pumpkin_pie'}

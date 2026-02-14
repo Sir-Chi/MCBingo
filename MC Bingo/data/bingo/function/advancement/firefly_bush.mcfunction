@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'22', 'difficulty': '3', 'name':'block.minecraft.firefly_bush', 'item':'firefly_bush'}

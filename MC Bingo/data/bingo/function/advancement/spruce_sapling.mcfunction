@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'11', 'difficulty': '1', 'name':'block.minecraft.spruce_sapling', 'item':'spruce_sapling'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'36', 'difficulty': '3', 'name':'block.minecraft.sea_pickle', 'item':'sea_pickle'}

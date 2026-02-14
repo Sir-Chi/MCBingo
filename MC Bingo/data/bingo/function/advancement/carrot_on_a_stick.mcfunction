@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'46', 'difficulty': '3', 'name':'item.minecraft.carrot_on_a_stick', 'item':'carrot_on_a_stick'}

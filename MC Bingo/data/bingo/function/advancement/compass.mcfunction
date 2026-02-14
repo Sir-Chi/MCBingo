@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'25', 'difficulty': '1-2', 'name':'item.minecraft.compass', 'item':'compass'}

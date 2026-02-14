@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'43', 'difficulty': '1', 'name':'item.minecraft.bundle', 'item':'#minecraft:bundles', 'special_item':'bundle'}

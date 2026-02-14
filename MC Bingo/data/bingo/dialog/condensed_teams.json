@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Condensed Teams",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Condensed Teams",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This makes the scoreboard information more concise by using only the team names instead of the individual player names. This is beneficial when there are large numbers of players.",
+        "color": "aqua"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, the team names will be used on the scoreboard instead on individual players."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, all players names will be displayed on the scoreboard."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "bingo:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "ON",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_configs/condensed_teams_on"
+      }
+    },
+    {
+      "label": {
+        "text": "OFF",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_configs/condensed_teams_off"
+      }
+    }
+  ]
+}

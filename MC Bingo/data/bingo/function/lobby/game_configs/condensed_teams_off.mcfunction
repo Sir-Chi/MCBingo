@@ -1,0 +1,2 @@
+scoreboard players set condensedTeams gameSetup 0
+data merge block -24 250 2 {front_text:{messages:[{"text":"Condensed","color":"white","bold":true},{"text":"Teams","color":"white","bold":true},{"text":"OFF","color":"dark_red","bold":true},""]},is_waxed:1b}

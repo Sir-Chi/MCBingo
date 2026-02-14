@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'27', 'difficulty': '1', 'name':'item.minecraft.bone', 'item':'bone'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'9', 'difficulty': '0', 'name':'item.minecraft.beetroot_soup', 'item':'beetroot_soup'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'40', 'difficulty': '2', 'name':'item.minecraft.tropical_fish_bucket', 'item':'tropical_fish_bucket'}

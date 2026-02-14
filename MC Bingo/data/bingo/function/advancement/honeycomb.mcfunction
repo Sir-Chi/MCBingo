@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'47', 'difficulty': '1', 'name':'item.minecraft.honeycomb', 'item':'honeycomb'}

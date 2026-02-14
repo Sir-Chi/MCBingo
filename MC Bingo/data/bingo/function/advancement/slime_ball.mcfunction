@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'28', 'difficulty': '3', 'name':'item.minecraft.slime_ball', 'item':'slime_ball'}

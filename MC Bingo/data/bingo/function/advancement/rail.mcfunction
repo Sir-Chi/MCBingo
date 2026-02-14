@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'2', 'difficulty': '0', 'name':'block.minecraft.rail', 'item':'rail'}

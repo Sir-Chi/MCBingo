@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'17', 'difficulty': '1', 'name':'item.minecraft.cocoa_beans', 'item':'cocoa_beans'}

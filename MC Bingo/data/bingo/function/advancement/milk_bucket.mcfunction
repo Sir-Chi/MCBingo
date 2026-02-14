@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'13', 'difficulty': '1', 'name':'item.minecraft.milk_bucket', 'item':'milk_bucket'}

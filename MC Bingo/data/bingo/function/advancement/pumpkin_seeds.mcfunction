@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'18', 'difficulty': '1', 'name':'item.minecraft.pumpkin_seeds', 'item':'pumpkin_seeds'}

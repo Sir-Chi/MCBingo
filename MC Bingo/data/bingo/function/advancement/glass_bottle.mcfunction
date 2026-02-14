@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'1', 'difficulty': '0', 'name':'item.minecraft.glass_bottle', 'item':'glass_bottle'}

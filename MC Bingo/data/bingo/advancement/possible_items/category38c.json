@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_hanging_sign",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.oak_hanging_sign"
+    },
+    "description": "Can be a hanging sign made from any wood",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bingo:possible_items/category37c",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'40', 'difficulty': '3', 'name':'item.minecraft.pufferfish_bucket', 'item':'pufferfish_bucket'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'44', 'difficulty': '1', 'name':'item.minecraft.amethyst_shard', 'item':'amethyst_shard'}

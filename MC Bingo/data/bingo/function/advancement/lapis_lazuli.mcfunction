@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'50', 'difficulty': '1-2', 'name':'item.minecraft.lapis_lazuli', 'item':'lapis_lazuli'}

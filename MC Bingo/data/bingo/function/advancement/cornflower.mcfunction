@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'35', 'difficulty': '1', 'name':'block.minecraft.cornflower', 'item':'cornflower'}

@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'24', 'difficulty': '2-3', 'name':'item.minecraft.firework_rocket', 'item':'firework_rocket'}

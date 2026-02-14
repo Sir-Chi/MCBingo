@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'17', 'difficulty': '2-3', 'name':'item.minecraft.cookie', 'item':'cookie'}

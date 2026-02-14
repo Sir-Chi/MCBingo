@@ -1,0 +1,34 @@
+{
+  "parent": "bingo:item_detection/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:candles",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Category 47, Difficulty 2",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:candle"
+    },
+    "title": "Candle"
+  },
+  "rewards": {
+    "function": "bingo:advancement/candle"
+  }
+}

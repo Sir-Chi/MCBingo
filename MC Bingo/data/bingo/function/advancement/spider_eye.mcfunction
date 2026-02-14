@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'19', 'difficulty': '2', 'name':'item.minecraft.spider_eye', 'item':'spider_eye'}

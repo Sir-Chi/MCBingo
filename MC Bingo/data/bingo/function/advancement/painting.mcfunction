@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'14', 'difficulty': '1', 'name':'item.minecraft.painting', 'item':'painting'}

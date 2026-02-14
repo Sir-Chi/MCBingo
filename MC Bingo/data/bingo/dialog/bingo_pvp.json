@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "PvP",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "PvP",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "When active, all the teams will have the same spawn point. This means that all teams will have access to the same potential resources.",
+        "color": "aqua"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, PvP mode will be activated."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, PvP mode will be deactivated."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "bingo:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "ON",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_modes/pvp_on"
+      }
+    },
+    {
+      "label": {
+        "text": "OFF",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function bingo:lobby/game_modes/pvp_off"
+      }
+    }
+  ]
+}

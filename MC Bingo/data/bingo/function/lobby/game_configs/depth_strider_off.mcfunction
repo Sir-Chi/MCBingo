@@ -1,0 +1,2 @@
+scoreboard players set depthStrider gameSetup 0
+data merge block -20 250 2 {front_text:{messages:["",{"text":"Depth Strider","color":"white","bold":true},{"text":"OFF","color":"dark_red","bold":true},""]},is_waxed:1b}

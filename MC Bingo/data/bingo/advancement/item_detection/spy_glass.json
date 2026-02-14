@@ -1,0 +1,31 @@
+{
+  "parent": "bingo:item_detection/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spyglass",
+        "ingredients": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Category 44, Difficulty 2-3",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": "Spyglass"
+  },
+  "rewards": {
+    "function": "bingo:advancement/spyglass"
+  }
+}

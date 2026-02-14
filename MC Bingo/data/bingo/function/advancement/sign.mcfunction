@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'38', 'difficulty': '1', 'name':'block.minecraft.oak_sign', 'item':'#minecraft:signs', 'special_item':'sign'}

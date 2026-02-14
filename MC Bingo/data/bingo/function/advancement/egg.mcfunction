@@ -1,0 +1,1 @@
+function bingo:universal/special_items/team_get_special {'category':'13', 'difficulty': '2', 'name':'item.minecraft.egg', 'item':'#minecraft:eggs', 'special_item':'egg'}
