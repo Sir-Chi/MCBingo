@@ -38,6 +38,9 @@ gamemode adventure @a
 attribute @s minecraft:attack_damage base set 0
 time set 0
 
+effect give @a[team=!] saturation 1 100 true
+effect give @a[team=!] regeneration 10 0 true
+
 #Revokes all advancements, grants the viewing of the possible items advancements & resets recipes
 advancement revoke @a everything
 recipe give @a *
@@ -64,6 +67,15 @@ execute in minecraft:overworld run forceload remove all
 
 #Resets timer
 stopwatch restart bingo:timer
+
+#Removes any other tags
+execute as @a run tag @s remove playerThatWantsToUpdate
+execute as @a run tag @s remove playerThatWantsToUpdating
+execute as @a run tag @s remove oneGuyToTeleport
+execute as @a run tag @s remove blueGuyToTeleport
+execute as @a run tag @s remove redGuyToTeleport
+execute as @a run tag @s remove greenGuyToTeleport
+execute as @a run tag @s remove yellowGuyToTeleport
 
 #Teleports all players back to the lobby
 execute in bingo:bingo_card run tp @a 0 249 -4

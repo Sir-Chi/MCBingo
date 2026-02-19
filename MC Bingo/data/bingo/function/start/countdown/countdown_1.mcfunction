@@ -5,7 +5,7 @@ execute as @a[team=!] run attribute @s minecraft:movement_speed base reset
 execute as @a[team=!] run attribute @s minecraft:jump_strength base reset
 
 #Gamerules
-function bingo:start/countdown/countdown_gamerules
+execute in minecraft:overworld run function bingo:start/countdown/countdown_gamerules
 
 #Depending on what game setup modes are active, gives the players the items, effects, recipes, etc
 execute if score depthStrider gameSetup matches 1 run item replace entity @a[team=!] armor.feet with leather_boots[unbreakable={},item_name={"color":"gold","text":"Flippers"},enchantments={"depth_strider":3,"vanishing_curse":1}] 1
