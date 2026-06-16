@@ -12,6 +12,18 @@ execute if entity @s[team=green] in minecraft:overworld at @e[type=armor_stand,t
 execute if entity @s[team=yellow] in minecraft:overworld at @e[type=armor_stand,tag=yellow_spawn_point] run tp @s @e[type=armor_stand,tag=yellow_spawn_point,limit=1]
 execute if entity @s[team=yellow] in minecraft:overworld at @e[type=armor_stand,tag=yellow_spawn_point] run spawnpoint @s ~ ~ ~
 
+execute if entity @s[team=purple] in minecraft:overworld at @e[type=armor_stand,tag=purple_spawn_point] run tp @s @e[type=armor_stand,tag=purple_spawn_point,limit=1]
+execute if entity @s[team=purple] in minecraft:overworld at @e[type=armor_stand,tag=purple_spawn_point] run spawnpoint @s ~ ~ ~
+
+execute if entity @s[team=pink] in minecraft:overworld at @e[type=armor_stand,tag=pink_spawn_point] run tp @s @e[type=armor_stand,tag=pink_spawn_point,limit=1]
+execute if entity @s[team=pink] in minecraft:overworld at @e[type=armor_stand,tag=pink_spawn_point] run spawnpoint @s ~ ~ ~
+
+execute if entity @s[team=cyan] in minecraft:overworld at @e[type=armor_stand,tag=cyan_spawn_point] run tp @s @e[type=armor_stand,tag=cyan_spawn_point,limit=1]
+execute if entity @s[team=cyan] in minecraft:overworld at @e[type=armor_stand,tag=cyan_spawn_point] run spawnpoint @s ~ ~ ~
+
+execute if entity @s[team=orange] in minecraft:overworld at @e[type=armor_stand,tag=orange_spawn_point] run tp @s @e[type=armor_stand,tag=orange_spawn_point,limit=1]
+execute if entity @s[team=orange] in minecraft:overworld at @e[type=armor_stand,tag=orange_spawn_point] run spawnpoint @s ~ ~ ~
+
 tag @s remove out_of_bounds_player
 
 #Constantly makes sure that the chunks around the armour stand markers are loaded
@@ -19,3 +31,7 @@ execute at @e[type=minecraft:armor_stand,tag=blue_spawn_point] run forceload add
 execute at @e[type=minecraft:armor_stand,tag=red_spawn_point] run forceload add ~ ~ ~ ~
 execute at @e[type=minecraft:armor_stand,tag=green_spawn_point] run forceload add ~ ~ ~ ~
 execute at @e[type=minecraft:armor_stand,tag=yellow_spawn_point] run forceload add ~ ~ ~ ~
+execute at @e[type=minecraft:armor_stand,tag=purple_spawn_point] run forceload add ~ ~ ~ ~
+execute at @e[type=minecraft:armor_stand,tag=pink_spawn_point] run forceload add ~ ~ ~ ~
+execute at @e[type=minecraft:armor_stand,tag=cyan_spawn_point] run forceload add ~ ~ ~ ~
+execute at @e[type=minecraft:armor_stand,tag=orange_spawn_point] run forceload add ~ ~ ~ ~

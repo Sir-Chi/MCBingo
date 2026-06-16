@@ -221,3 +221,8 @@ Category 50
 1 - lapis_lazuli
 2 - lapis_lazuli
 3 - bell
+
+Category 51
+1 - sulfur_spike
+2 - sulfur_spike
+3 - sulfur_cube_bucket

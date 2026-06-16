@@ -9,7 +9,7 @@
   "body": {
     "type": "minecraft:plain_message",
     "contents": {
-      "text": "Randomly assign all players onto 2, 3, or 4 teams."
+      "text": "Randomly assign all players onto teams."
     },
     "width": 300
   },
@@ -45,6 +45,46 @@
       "action": {
         "type": "minecraft:run_command",
         "command": "function bingo:lobby/signs/random_teams/4_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "5 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/5_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "6 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/6_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "7 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/7_teams"
+      }
+    },
+    {
+      "label": {
+        "text": "8 Teams",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bingo:lobby/signs/random_teams/8_teams"
       }
     }
   ]

@@ -4,5 +4,4 @@
 # and chooses the correct function based on those two parameters
 
 $execute if score $(special_item) $(team_name) matches 0 if score bingoLockout gameSetup matches 0 run function bingo:universal/special_items/handle_item_obtained_normal_special {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', special_item:'$(special_item)', team:'$(team)', team_name:'$(team_name)'}
-
 $execute if score $(special_item) $(team_name) matches 0 if score bingoLockout gameSetup matches 1 run function bingo:universal/special_items/lockout_team_check_special {category:'$(category)', difficulty:'$(difficulty)', name:'$(name)', item:'$(item)', special_item:'$(special_item)', team:'$(team)', team_name:'$(team_name)'}

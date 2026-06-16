@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'51', 'difficulty': '3', 'name':'item.minecraft.sulfur_cube_bucket', 'item':'sulfur_cube_bucket'}

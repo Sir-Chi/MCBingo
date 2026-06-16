@@ -19,6 +19,26 @@ team join yellow @e[type=marker,tag=yellow]
 execute as @p[team=yellow] if score condensedTeams gameSetup matches 1 run scoreboard players set @e[type=marker,tag=yellow] Score 0
 execute as @p[team=yellow] if score condensedTeams gameSetup matches 1 run scoreboard players display name @e[type=marker,tag=yellow] Score "Yellow Team"
 
+execute in bingo:bingo_card run summon marker 0 258 0 {Tags:["team_marker","purple"],CustomName:"Purple Team"}
+team join purple @e[type=marker,tag=purple]
+execute as @p[team=purple] if score condensedTeams gameSetup matches 1 run scoreboard players set @e[type=marker,tag=purple] Score 0
+execute as @p[team=purple] if score condensedTeams gameSetup matches 1 run scoreboard players display name @e[type=marker,tag=purple] Score "Purple Team"
+
+execute in bingo:bingo_card run summon marker 0 258 0 {Tags:["team_marker","pink"],CustomName:"Pink Team"}
+team join pink @e[type=marker,tag=pink]
+execute as @p[team=pink] if score condensedTeams gameSetup matches 1 run scoreboard players set @e[type=marker,tag=pink] Score 0
+execute as @p[team=pink] if score condensedTeams gameSetup matches 1 run scoreboard players display name @e[type=marker,tag=pink] Score "Pink Team"
+
+execute in bingo:bingo_card run summon marker 0 258 0 {Tags:["team_marker","cyan"],CustomName:"Cyan Team"}
+team join cyan @e[type=marker,tag=cyan]
+execute as @p[team=cyan] if score condensedTeams gameSetup matches 1 run scoreboard players set @e[type=marker,tag=cyan] Score 0
+execute as @p[team=cyan] if score condensedTeams gameSetup matches 1 run scoreboard players display name @e[type=marker,tag=cyan] Score "Cyan Team"
+
+execute in bingo:bingo_card run summon marker 0 258 0 {Tags:["team_marker","orange"],CustomName:"Orange Team"}
+team join orange @e[type=marker,tag=orange]
+execute as @p[team=orange] if score condensedTeams gameSetup matches 1 run scoreboard players set @e[type=marker,tag=orange] Score 0
+execute as @p[team=orange] if score condensedTeams gameSetup matches 1 run scoreboard players display name @e[type=marker,tag=orange] Score "Orange Team"
+
 #Sets the sidebar to be the Score scoreboard and if Lockout is active it sets the goal based on number of teams playing
 scoreboard objectives setdisplay sidebar Score
 
@@ -26,6 +46,10 @@ execute if score bingoLockout gameSetup matches 1 if score teams teamCount match
 execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 2 run scoreboard players set bingoLockoutGoal Score 13
 execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 3 run scoreboard players set bingoLockoutGoal Score 9
 execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 4 run scoreboard players set bingoLockoutGoal Score 7
+execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 5 run scoreboard players set bingoLockoutGoal Score 5
+execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 6 run scoreboard players set bingoLockoutGoal Score 5
+execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 7 run scoreboard players set bingoLockoutGoal Score 4
+execute if score bingoLockout gameSetup matches 1 if score teams teamCount matches 8 run scoreboard players set bingoLockoutGoal Score 4
 
 execute if score bingoLockout gameSetup matches 1 run scoreboard players display name bingoLockoutGoal Score "Lockout Goal"
 

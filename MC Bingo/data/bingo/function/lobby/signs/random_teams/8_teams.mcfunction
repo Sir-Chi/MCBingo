@@ -1,0 +1,15 @@
+#Randomises players into 2 teams. Will constantly loop until there are no unassigned players left.
+
+team join blue @r[team=]
+team join red @r[team=]
+team join green @r[team=]
+team join yellow @r[team=]
+team join purple @r[team=]
+team join pink @r[team=]
+team join cyan @r[team=]
+team join orange @r[team=]
+
+execute if entity @a[team=] run schedule function bingo:lobby/signs/random_teams/8_teams 2t
+
+execute unless entity @a[team=] run title @a title ""
+execute unless entity @a[team=] run title @a subtitle {"text":"Teams randomised!","color":"aqua"}

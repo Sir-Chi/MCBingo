@@ -26,6 +26,10 @@ team modify blue collisionRule always
 team modify red collisionRule always
 team modify green collisionRule always
 team modify yellow collisionRule always
+team modify purple collisionRule always
+team modify pink collisionRule always
+team modify cyan collisionRule always
+team modify orange collisionRule always
 
 #Starts timer
 stopwatch restart bingo:timer

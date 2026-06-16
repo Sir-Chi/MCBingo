@@ -47,13 +47,23 @@ scoreboard players set teamBlue teamCount 0
 scoreboard players set teamRed teamCount 0
 scoreboard players set teamGreen teamCount 0
 scoreboard players set teamYellow teamCount 0
+scoreboard players set teamPurple teamCount 0
+scoreboard players set teamPink teamCount 0
+scoreboard players set teamCyan teamCount 0
+scoreboard players set teamOrange teamCount 0
 scoreboard players display name teamBlue teamCount "Blue Team"
 scoreboard players display name teamRed teamCount "Red Team"
 scoreboard players display name teamGreen teamCount "Green Team"
 scoreboard players display name teamYellow teamCount "Yellow Team"
+scoreboard players display name teamPurple teamCount "Purple Team"
+scoreboard players display name teamPink teamCount "Pink Team"
+scoreboard players display name teamCyan teamCount "Cyan Team"
+scoreboard players display name teamOrange teamCount "Orange Team"
 
 scoreboard objectives add teamReady dummy
 scoreboard players set teams teamReady 0
+
+scoreboard objectives add teamOrder dummy
 
 scoreboard objectives add categories dummy "Item Categories"
 scoreboard objectives add difficulties dummy "Item Difficulties"
@@ -61,6 +71,10 @@ scoreboard objectives add itemsBlue dummy "Blue Items"
 scoreboard objectives add itemsRed dummy "Red Items"
 scoreboard objectives add itemsGreen dummy "Green Items"
 scoreboard objectives add itemsYellow dummy "Yellow Items"
+scoreboard objectives add itemsPurple dummy "Purple Items"
+scoreboard objectives add itemsPink dummy "Pink Items"
+scoreboard objectives add itemsCyan dummy "Cyan Items"
+scoreboard objectives add itemsOrange dummy "Orange Items"
 
 scoreboard objectives add startingCoordinates dummy "Team Starting Coordinates"
 scoreboard players set blueX startingCoordinates 0
@@ -71,6 +85,40 @@ scoreboard players set greenX startingCoordinates 0
 scoreboard players set greenZ startingCoordinates 0
 scoreboard players set yellowX startingCoordinates 0
 scoreboard players set yellowZ startingCoordinates 0
+scoreboard players set purpleX startingCoordinates 0
+scoreboard players set purpleZ startingCoordinates 0
+scoreboard players set pinkX startingCoordinates 0
+scoreboard players set pinkZ startingCoordinates 0
+scoreboard players set cyanX startingCoordinates 0
+scoreboard players set cyanZ startingCoordinates 0
+scoreboard players set orangeX startingCoordinates 0
+scoreboard players set orangeZ startingCoordinates 0
+
+scoreboard objectives add item1 dummy "Obtained Item 1"
+scoreboard objectives add item2 dummy "Obtained Item 2"
+scoreboard objectives add item3 dummy "Obtained Item 3"
+scoreboard objectives add item4 dummy "Obtained Item 4"
+scoreboard objectives add item5 dummy "Obtained Item 5"
+scoreboard objectives add item6 dummy "Obtained Item 6"
+scoreboard objectives add item7 dummy "Obtained Item 7"
+scoreboard objectives add item8 dummy "Obtained Item 8"
+scoreboard objectives add item9 dummy "Obtained Item 9"
+scoreboard objectives add item10 dummy "Obtained Item 10"
+scoreboard objectives add item11 dummy "Obtained Item 11"
+scoreboard objectives add item12 dummy "Obtained Item 12"
+scoreboard objectives add item13 dummy "Obtained Item 13"
+scoreboard objectives add item14 dummy "Obtained Item 14"
+scoreboard objectives add item15 dummy "Obtained Item 15"
+scoreboard objectives add item16 dummy "Obtained Item 16"
+scoreboard objectives add item17 dummy "Obtained Item 17"
+scoreboard objectives add item18 dummy "Obtained Item 18"
+scoreboard objectives add item19 dummy "Obtained Item 19"
+scoreboard objectives add item20 dummy "Obtained Item 20"
+scoreboard objectives add item21 dummy "Obtained Item 21"
+scoreboard objectives add item22 dummy "Obtained Item 22"
+scoreboard objectives add item23 dummy "Obtained Item 23"
+scoreboard objectives add item24 dummy "Obtained Item 24"
+scoreboard objectives add item25 dummy "Obtained Item 25"
 
 scoreboard objectives add signs trigger
 
@@ -94,13 +142,21 @@ team add blue "Blue Team"
 team add red "Red Team"
 team add yellow "Yellow Team"
 team add green "Green Team"
+team add purple "Purple Team"
+team add pink "Pink Team"
+team add cyan "Cyan Team"
+team add orange "Orange Team"
 team add admin "Admins"
 
 team modify blue color blue
 team modify red color red
 team modify yellow color yellow
 team modify green color green
-team modify admin color dark_purple
+team modify purple color dark_purple
+team modify pink color light_purple
+team modify cyan color dark_aqua
+team modify orange color gold
+team modify admin color dark_red
 
 #Gamerules
 gamerule advance_time false

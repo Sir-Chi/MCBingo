@@ -1,4 +1,4 @@
-#When a Team has the correct pattern of coloured marker pieces on item squares (a row, a column or a diagonal), it triggers the correct win for that team.
+#When a Team has a score that matches the lockout goal (which depends on the number of teams playing), it triggers the correct win for that team.
 
 #Lockout Bingo
 
@@ -17,3 +17,19 @@ execute as @a[team=green] if score @s Score >= bingoLockoutGoal Score run return
 #Yellow Wins
 execute as @e[type=marker,tag=team_marker,tag=yellow,limit=1] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'yellow'}
 execute as @a[team=yellow] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'yellow'}
+
+#Purple Wins
+execute as @e[type=marker,tag=team_marker,tag=purple,limit=1] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'purple'}
+execute as @a[team=purple] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'purple'}
+
+#Pink Wins
+execute as @e[type=marker,tag=team_marker,tag=pink,limit=1] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'pink'}
+execute as @a[team=pink] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'pink'}
+
+#Cyan Wins
+execute as @e[type=marker,tag=team_marker,tag=cyan,limit=1] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'cyan'}
+execute as @a[team=cyan] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'cyan'}
+
+#Orange Wins
+execute as @e[type=marker,tag=team_marker,tag=orange,limit=1] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'orange'}
+execute as @a[team=orange] if score @s Score >= bingoLockoutGoal Score run return run function bingo:end/game_won/announce_win {'team':'orange'}

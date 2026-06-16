@@ -29,3 +29,15 @@ execute if entity @a[scores={signs=9}] as @a[scores={signs=9}] run function bing
 
 #Join Red Team
 execute if entity @a[scores={signs=10}] as @a[scores={signs=10}] run function bingo:lobby/signs/random_teams/join_red_team
+
+#Join Purple Team
+execute if entity @a[scores={signs=11}] as @a[scores={signs=11}] run function bingo:lobby/signs/random_teams/join_purple_team
+
+#Join Pink Team
+execute if entity @a[scores={signs=12}] as @a[scores={signs=12}] run function bingo:lobby/signs/random_teams/join_pink_team
+
+#Join Cyan Team
+execute if entity @a[scores={signs=13}] as @a[scores={signs=13}] run function bingo:lobby/signs/random_teams/join_cyan_team
+
+#Join Orange Team
+execute if entity @a[scores={signs=14}] as @a[scores={signs=14}] run function bingo:lobby/signs/random_teams/join_orange_team

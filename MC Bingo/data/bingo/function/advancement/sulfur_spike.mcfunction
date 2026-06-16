@@ -1,0 +1,1 @@
+function bingo:universal/team_get {'category':'51', 'difficulty': '1-2', 'name':'block.minecraft.sulfur_spike', 'item':'sulfur_spike'}

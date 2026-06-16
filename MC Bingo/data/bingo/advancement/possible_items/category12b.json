@@ -7,7 +7,7 @@
     "title": {
       "translate": "item.minecraft.music_disc_cat"
     },
-    "description": "",
+    "description": "Only the Music Disc Cat",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false

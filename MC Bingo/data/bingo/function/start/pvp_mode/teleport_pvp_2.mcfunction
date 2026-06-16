@@ -11,6 +11,10 @@ team modify blue collisionRule never
 team modify red collisionRule never
 team modify green collisionRule never
 team modify yellow collisionRule never
+team modify purple collisionRule never
+team modify pink collisionRule never
+team modify cyan collisionRule never
+team modify orange collisionRule never
 effect give @a[team=!] invisibility infinite 0 true
 give @a[team=!] spyglass[item_name={"color":"gold","text":"BINGO Spyglass"}] 1
 execute in minecraft:overworld as @s align xyz run tp @a[team=!,tag=!pvpGuyToTeleport] @s

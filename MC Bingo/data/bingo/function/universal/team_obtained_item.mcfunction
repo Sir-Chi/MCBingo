@@ -1,0 +1,26 @@
+
+$execute if @e[type=marker,tag=item_1,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item1 1
+$execute if @e[type=marker,tag=item_2,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item2 1
+$execute if @e[type=marker,tag=item_3,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item3 1
+$execute if @e[type=marker,tag=item_4,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item4 1
+$execute if @e[type=marker,tag=item_5,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item5 1
+$execute if @e[type=marker,tag=item_6,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item6 1
+$execute if @e[type=marker,tag=item_7,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item7 1
+$execute if @e[type=marker,tag=item_8,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item8 1
+$execute if @e[type=marker,tag=item_9,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item9 1
+$execute if @e[type=marker,tag=item_10,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item10 1
+$execute if @e[type=marker,tag=item_11,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item11 1
+$execute if @e[type=marker,tag=item_12,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item12 1
+$execute if @e[type=marker,tag=item_13,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item13 1
+$execute if @e[type=marker,tag=item_14,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item14 1
+$execute if @e[type=marker,tag=item_15,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item15 1
+$execute if @e[type=marker,tag=item_16,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item16 1
+$execute if @e[type=marker,tag=item_17,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item17 1
+$execute if @e[type=marker,tag=item_18,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item18 1
+$execute if @e[type=marker,tag=item_19,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item19 1
+$execute if @e[type=marker,tag=item_20,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item20 1
+$execute if @e[type=marker,tag=item_21,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item21 1
+$execute if @e[type=marker,tag=item_22,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item22 1
+$execute if @e[type=marker,tag=item_23,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item23 1
+$execute if @e[type=marker,tag=item_24,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item24 1
+$execute if @e[type=marker,tag=item_25,tag=card_item,tag=$(item)] run return run scoreboard players set $(team) item25 1

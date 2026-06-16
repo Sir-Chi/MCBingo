@@ -4,16 +4,7 @@
 execute at @e[type=marker,tag=lobby_locator] run tp @a[distance=30..,team=!admin] ~ ~1 ~
 
 #Ensure player's don't loose saturation or health
-execute as @a[nbt={foodLevel:19}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:18}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:17}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:16}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:15}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:14}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:13}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:12}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:11}] run effect give @s minecraft:saturation 1 0 true
-execute as @a[nbt={foodLevel:10}] run effect give @s minecraft:saturation 1 0 true
+execute as @a[nbt=!{foodLevel:20}] run effect give @s minecraft:saturation 1 1 true
 
 effect give @a minecraft:regeneration 2 0 true
 execute as @a run attribute @s minecraft:attack_damage base set 0

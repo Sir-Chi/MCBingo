@@ -6,6 +6,7 @@ $execute at @a[team=!$(team)] run playsound minecraft:block.note_block.cow_bell 
 
 #Sets that the team has obtained this item from the card
 $scoreboard players set $(special_item) $(team_name) 1
+function bingo:universal/special_items/team_obtained_item_special {item:'$(special_item)', team:'$(team)'}
 
 #Remove one of the obtained items from the player's inventory
 $clear @s $(item) 1
@@ -19,7 +20,4 @@ $execute if score condensedTeams gameSetup matches 0 run scoreboard players add 
 $execute if score condensedTeams gameSetup matches 0 run tellraw @a [{"color":"$(team)","selector":"@s"}," obtained ",{"color":"gold","fallback":"$(special_item)","translate":"$(name)"},"! ",{"score":{"name":"@s","objective":"Score"}}," in ",{"score":{"name":"minutes","objective":"time"}}," : ",{"score":{"name":"seconds","objective":"time"}}]
 
 #Places the team's colour around the item on the card indicating they have obtained it
-$execute as @s[team=blue] run return run execute in bingo:bingo_card at @e[type=marker,tag=card_item,tag=$(special_item)] run place template bingo:card_extras/blue_card_marker ~-3 ~1 ~-4
-$execute as @s[team=red] run return run execute in bingo:bingo_card at @e[type=marker,tag=card_item,tag=$(special_item)] run place template bingo:card_extras/red_card_marker ~-3 ~1 ~7
-$execute as @s[team=green] run return run execute in bingo:bingo_card at @e[type=marker,tag=card_item,tag=$(special_item)] run place template bingo:card_extras/green_card_marker ~8 ~1 ~8
-$execute as @s[team=yellow] run return run execute in bingo:bingo_card at @e[type=marker,tag=card_item,tag=$(special_item)] run place template bingo:card_extras/yellow_card_marker ~9 ~1 ~-4
+$execute as @s[team=$(team)] run execute in bingo:bingo_card at @e[type=marker,tag=card_item,tag=$(special_item)] run function bingo:universal/place_team_colour {team:'$(team)'}

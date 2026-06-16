@@ -30,12 +30,40 @@ scoreboard players set teamYellow teamCount 0
 
 scoreboard players set teams teamReady 0
 
+scoreboard players reset * teamOrder
+
+scoreboard players reset * item1
+scoreboard players reset * item2
+scoreboard players reset * item3
+scoreboard players reset * item4
+scoreboard players reset * item5
+scoreboard players reset * item6
+scoreboard players reset * item7
+scoreboard players reset * item8
+scoreboard players reset * item9
+scoreboard players reset * item10
+scoreboard players reset * item11
+scoreboard players reset * item12
+scoreboard players reset * item13
+scoreboard players reset * item14
+scoreboard players reset * item15
+scoreboard players reset * item16
+scoreboard players reset * item17
+scoreboard players reset * item18
+scoreboard players reset * item19
+scoreboard players reset * item20
+scoreboard players reset * item21
+scoreboard players reset * item22
+scoreboard players reset * item23
+scoreboard players reset * item24
+scoreboard players reset * item25
+
 #Resets various player states
 effect clear @a
 xp set @a 0 levels
 clear @a
 gamemode adventure @a
-attribute @s minecraft:attack_damage base set 0
+execute as @a[team=!] run attribute @s minecraft:attack_damage base set 0
 time set 0
 
 effect give @a[team=!] saturation 1 100 true
@@ -47,14 +75,14 @@ recipe give @a *
 advancement grant @a from bingo:possible_items/root
 
 #Gamerules
-gamerule advance_time false
-gamerule advance_weather false
-gamerule raids false
-gamerule show_advancement_messages false
-gamerule spawn_monsters false
-gamerule spawn_patrols false
-gamerule spawn_phantoms false
-gamerule spawn_wandering_traders false
+execute in minecraft:overworld run gamerule advance_time false
+execute in minecraft:overworld run gamerule advance_weather false
+execute in minecraft:overworld run gamerule raids false
+execute in minecraft:overworld run gamerule show_advancement_messages false
+execute in minecraft:overworld run gamerule spawn_monsters false
+execute in minecraft:overworld run gamerule spawn_patrols false
+execute in minecraft:overworld run gamerule spawn_phantoms false
+execute in minecraft:overworld run gamerule spawn_wandering_traders false
 
 #Removes team spawn points
 kill @e[tag=pvp_spawn_point]
@@ -70,7 +98,7 @@ stopwatch restart bingo:timer
 
 #Removes any other tags
 execute as @a run tag @s remove playerThatWantsToUpdate
-execute as @a run tag @s remove playerThatWantsToUpdating
+execute as @a run tag @s remove playerThatIsMapUpdating
 execute as @a run tag @s remove oneGuyToTeleport
 execute as @a run tag @s remove blueGuyToTeleport
 execute as @a run tag @s remove redGuyToTeleport
