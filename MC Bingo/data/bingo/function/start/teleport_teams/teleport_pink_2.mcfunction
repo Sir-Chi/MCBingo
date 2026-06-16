@@ -11,7 +11,7 @@ team modify pink collisionRule never
 effect give @a[team=pink] invisibility infinite 0 true
 give @a[team=pink] spyglass[item_name={"color":"gold","text":"BINGO Spyglass"}] 1
 execute in minecraft:overworld as @s align xyz run tp @a[team=pink,tag=!pinkGuyToTeleport] @s
-tellraw @a ["Giving ",{"color":"pink","text":"Pink Team"}," a birds-eye view of their spawn point as terrain generates..."]
+tellraw @a ["Giving ",{"color":"light_purple","text":"Pink Team"}," a birds-eye view of their spawn point as terrain generates..."]
 
 #Also spawns an armour stand which falls to find the y level to set the spawn location of the team to.
 execute at @s run summon armor_stand ~0.5 ~-4 ~0.5 {Invulnerable:1b,Tags:["pink_spawn_point"]}
