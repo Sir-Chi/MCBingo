@@ -3,10 +3,10 @@ execute if score teamBlue teamCount matches 1 run tag @r[team=blue] add blueGuyT
 execute if score teamRed teamCount matches 1 run tag @r[team=red] add redGuyToTeleport
 execute if score teamGreen teamCount matches 1 run tag @r[team=green] add greenGuyToTeleport
 execute if score teamYellow teamCount matches 1 run tag @r[team=yellow] add yellowGuyToTeleport
-execute if score teamPurple teamCount matches 1 run tag @r[team=yellow] add purpleGuyToTeleport
-execute if score teamPink teamCount matches 1 run tag @r[team=yellow] add pinkGuyToTeleport
-execute if score teamCyan teamCount matches 1 run tag @r[team=yellow] add cyanGuyToTeleport
-execute if score teamOrange teamCount matches 1 run tag @r[team=yellow] add orangeGuyToTeleport
+execute if score teamPurple teamCount matches 1 run tag @r[team=purple] add purpleGuyToTeleport
+execute if score teamPink teamCount matches 1 run tag @r[team=pink] add pinkGuyToTeleport
+execute if score teamCyan teamCount matches 1 run tag @r[team=cyan] add cyanGuyToTeleport
+execute if score teamOrange teamCount matches 1 run tag @r[team=orange] add orangeGuyToTeleport
 
 #Tells players that the teams will have an overview of their spawn and that the game will start in a minute
 title @a[team=!] title {"text":"Giving Teams An Overview","color":"gold"}

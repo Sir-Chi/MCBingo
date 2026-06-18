@@ -1,5 +1,5 @@
 #Teleports the player to the marker from the map update box.
-$tp @a[tag=$(team)PlayerThatIsMapUpdating] @e[type=marker,tag=$(team)WhereToTpBackTo,limit=1]
+$tp @a[team=$(team),tag=$(team)PlayerThatIsMapUpdating] @e[type=marker,tag=$(team)WhereToTpBackTo,limit=1]
 kill @e[type=item,tag=droppedMap]
 
 #Unloads the loaded chunk from tpto

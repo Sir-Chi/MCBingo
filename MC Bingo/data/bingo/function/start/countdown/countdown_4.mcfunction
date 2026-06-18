@@ -12,7 +12,7 @@ difficulty normal
 effect clear @a
 xp set @a 0 levels
 clear @a
-time set 0
+execute in minecraft:overworld run time set 0
 gamemode survival @a[team=!]
 gamemode spectator @a[team=]
 
