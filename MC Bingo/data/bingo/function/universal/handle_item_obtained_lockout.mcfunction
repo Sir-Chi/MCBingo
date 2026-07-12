@@ -1,5 +1,4 @@
 # Ran by every item detection advancement as player who got advancement with that player's team
-
 #Play sound to player
 $execute at @a[team=$(team)] run playsound minecraft:block.note_block.iron_xylophone record @a[team=$(team)] ~ ~ ~ 1 0.5 1
 $execute at @a[team=!$(team)] run playsound minecraft:block.note_block.cow_bell record @a[team=!$(team)] ~ ~ ~ 1 0.5 1

@@ -16,6 +16,10 @@ data remove storage bingo:win blue
 data remove storage bingo:win red
 data remove storage bingo:win green
 data remove storage bingo:win yellow
+data remove storage bingo:win purple
+data remove storage bingo:win pink
+data remove storage bingo:win cyan
+data remove storage bingo:win orange
 
 #Makes sure the game is set to an ended state
 scoreboard players set #gameended gameSetup 1
@@ -27,6 +31,10 @@ scoreboard players set teamBlue teamCount 0
 scoreboard players set teamRed teamCount 0
 scoreboard players set teamGreen teamCount 0
 scoreboard players set teamYellow teamCount 0
+scoreboard players set teamPurple teamCount 0
+scoreboard players set teamPink teamCount 0
+scoreboard players set teamCyan teamCount 0
+scoreboard players set teamOrange teamCount 0
 
 scoreboard players set teams teamReady 0
 
@@ -90,6 +98,10 @@ kill @e[tag=blue_spawn_point]
 kill @e[tag=red_spawn_point]
 kill @e[tag=green_spawn_point]
 kill @e[tag=yellow_spawn_point]
+kill @e[tag=purple_spawn_point]
+kill @e[tag=pink_spawn_point]
+kill @e[tag=cyan_spawn_point]
+kill @e[tag=orange_spawn_point]
 
 execute in minecraft:overworld run forceload remove all
 
@@ -97,13 +109,14 @@ execute in minecraft:overworld run forceload remove all
 stopwatch restart bingo:timer
 
 #Removes any other tags
-execute as @a run tag @s remove playerThatWantsToUpdate
-execute as @a run tag @s remove playerThatIsMapUpdating
-execute as @a run tag @s remove oneGuyToTeleport
-execute as @a run tag @s remove blueGuyToTeleport
-execute as @a run tag @s remove redGuyToTeleport
-execute as @a run tag @s remove greenGuyToTeleport
-execute as @a run tag @s remove yellowGuyToTeleport
+execute as @a run tag @s remove bluePlayerThatIsMapUpdating
+execute as @a run tag @s remove redPlayerThatIsMapUpdating
+execute as @a run tag @s remove greenPlayerThatIsMapUpdating
+execute as @a run tag @s remove yellowPlayerThatIsMapUpdating
+execute as @a run tag @s remove purplePlayerThatIsMapUpdating
+execute as @a run tag @s remove pinkPlayerThatIsMapUpdating
+execute as @a run tag @s remove cyanPlayerThatIsMapUpdating
+execute as @a run tag @s remove orangePlayerThatIsMapUpdating
 
 #Teleports all players back to the lobby
 execute in bingo:bingo_card run tp @a 0 249 -4

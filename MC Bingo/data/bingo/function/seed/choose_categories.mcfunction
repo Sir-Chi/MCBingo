@@ -1,5 +1,5 @@
 #Chooses the categories for the bingo card from the 50 different possible categories using the Seed via the bingo_seq randomiser
-execute store result score chosen_category categories run random value 1..50 bingo_seq
+execute store result score chosen_category categories run random value 1..51 bingo_seq
 data modify storage bingo:categories input set value {"chosen_category":0}
 execute store result storage bingo:categories input.chosen_category int 1 run scoreboard players get chosen_category categories
 execute if score item1 categories matches 0 unless score chosen_category categories = item1 categories run return run function bingo:seed/set_categories with storage bingo:categories input

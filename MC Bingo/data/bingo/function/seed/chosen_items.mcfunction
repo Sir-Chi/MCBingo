@@ -12,7 +12,7 @@ $execute in bingo:bingo_card if score item$(item_number) categories matches 8 if
 $execute in bingo:bingo_card if score item$(item_number) categories matches 9 if score item$(item_number) difficulties matches 1..3 run function bingo:card_items/beetroot_soup
 $execute in bingo:bingo_card if score item$(item_number) categories matches 10 if score item$(item_number) difficulties matches 1..3 run function bingo:card_items/name_tag
 
-#Items At Specific Difficulties (Category 11-50)
+#Items At Specific Difficulties (Category 11-51)
 $execute in bingo:bingo_card if score item$(item_number) categories matches 11 if score item$(item_number) difficulties matches 1 run function bingo:card_items/spruce_sapling
 $execute in bingo:bingo_card if score item$(item_number) categories matches 11 if score item$(item_number) difficulties matches 2 run function bingo:card_items/acacia_sapling
 $execute in bingo:bingo_card if score item$(item_number) categories matches 11 if score item$(item_number) difficulties matches 3 run function bingo:card_items/dark_oak_sapling
@@ -158,3 +158,6 @@ $execute in bingo:bingo_card if score item$(item_number) categories matches 49 i
 
 $execute in bingo:bingo_card if score item$(item_number) categories matches 50 if score item$(item_number) difficulties matches 1..2 run function bingo:card_items/lapis_lazuli
 $execute in bingo:bingo_card if score item$(item_number) categories matches 50 if score item$(item_number) difficulties matches 3 run function bingo:card_items/bell
+
+$execute in bingo:bingo_card if score item$(item_number) categories matches 51 if score item$(item_number) difficulties matches 1..2 run function bingo:card_items/sulfur_spike
+$execute in bingo:bingo_card if score item$(item_number) categories matches 51 if score item$(item_number) difficulties matches 3 run function bingo:card_items/sulfur_cube_bucket

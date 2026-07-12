@@ -10,7 +10,7 @@ execute unless score #gamestarted gameSetup matches -1 run function bingo:update
 execute if score #gamestarted gameSetup matches 1 run function bingo:update_map/map_dropped
 
 execute as @a[scores={deaths=1..,respawn=1..}] run function bingo:respawn/player_respawns
-execute if score #gamestarted gameSetup matches 1 run function bingo:respawn/spawn_location_unknown
+execute if score #gamestarted gameSetup matches 1 run function bingo:respawn/spawn_location_unknown_check
 
 execute if score #gameended gameSetup matches 0 run function bingo:end/win_conditions/game_mode_check
 
